@@ -1,9 +1,9 @@
 <div align="center">
 
-  # ⚡ Hey there, I'm <span style="color: #00F5D4;">Bishen Jayawardhana</span> 👋
+  # Hey there, I'm <span style="color: #00F5D4;">Bishen Jayawardhana</span>
 
   <a href="https://github.com/bishenjayawardhana">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=true&width=680&height=85&lines=%F0%9F%9B%A1%EF%B8%8F+Cyber+Security+Undergraduate+%40+NSBM+%C3%97+VU+Australia;%F0%9F%92%BB+Full-Stack+Developer+%26+Security+Enthusiast;%F0%9F%94%90+Breaking%2C+Securing+%26+Engineering+Resilient+Systems;%E2%9A%A1+Passionate+About+Scalable+Code+%26+Cyber+Defense" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=true&width=680&height=85&lines=Cyber+Security+Undergraduate+%40+NSBM+%C3%97+VU+Australia;Full-Stack+Developer+%26+Security+Enthusiast;Breaking%2C+Securing+%26+Engineering+Resilient+Systems;Passionate+About+Scalable+Code+%26+Cyber+Defense" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Degree-Cyber%20Security%20(VU%20Australia)-7928CA?style=flat-square&logo=graduation-cap&logoColor=white" alt="Degree" />
   </p>
 
-  ### 🌐 Let's Connect
+  ### Connect
 
   <p align="center">
     <a href="https://www.linkedin.com/in/bishen-jayawardhana-274a7b368" target="_blank">
@@ -42,7 +42,7 @@
 
 ---
 
-### 🛡️ About Me
+### About Me
 
 ```yaml
 name: Bishen Jayawardhana
@@ -50,7 +50,7 @@ focus: Cyber Security & Full-Stack Engineering
 academic:
   year: 2nd Year Undergraduate
   program: BSc in Cyber Security
-  institution: NSBM Green University (affiliated with Victoria University, Australia 🇦🇺 🇱🇰)
+  institution: NSBM Green University (affiliated with Victoria University, Australia)
 mindset: "Don't just write code — understand how it works under the hood and how to defend it."
 ```
 
@@ -62,7 +62,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 ---
 
-### 🛠️ Tech Stack & Security Arsenal
+### Tech Stack & Security Arsenal
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -86,7 +86,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 ---
 
-### 📊 GitHub Analytics
+### GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
@@ -105,7 +105,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 ---
 
-### 📂 Featured Projects
+### Featured Projects
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
@@ -114,7 +114,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 ---
 
-### 🐍 Contribution Activity Snake
+### Contribution Activity Snake
 
 <div align="center">
 
@@ -129,5 +129,5 @@ mindset: "Don't just write code — understand how it works under the hood and h
 ---
 
 <div align="center">
-  <sub>⚡ Designed with passion by <b><a href="https://github.com/bishenjayawardhana">Bishen Jayawardhana</a></b> • Stay curious & stay secure 🔐</sub>
+  <sub>Designed by <b><a href="https://github.com/bishenjayawardhana">Bishen Jayawardhana</a></b> • Stay curious & stay secure</sub>
 </div>
