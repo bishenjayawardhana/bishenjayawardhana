@@ -1,6 +1,6 @@
 <div align="center">
 
-  # Hey there, I'm <span style="color: #00F5D4;">Bishen Jayawardhana</span>
+  # <img src="https://api.iconify.design/lucide:terminal.svg?color=%2300F5D4" width="28" height="28" align="center" /> Hey there, I'm <span style="color: #00F5D4;">Bishen Jayawardhana</span>
 
   <a href="https://github.com/bishenjayawardhana">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=true&width=680&height=85&lines=Cyber+Security+Undergraduate+%40+NSBM+%C3%97+VU+Australia;Full-Stack+Developer+%26+Security+Enthusiast;Breaking%2C+Securing+%26+Engineering+Resilient+Systems;Passionate+About+Scalable+Code+%26+Cyber+Defense" alt="Typing SVG" />
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Degree-Cyber%20Security%20(VU%20Australia)-7928CA?style=flat-square&logo=graduation-cap&logoColor=white" alt="Degree" />
   </p>
 
-  ### Connect
+  ### <img src="https://api.iconify.design/lucide:globe.svg?color=%2300F5D4" width="18" height="18" align="center" /> Connect
 
   <p align="center">
     <a href="https://www.linkedin.com/in/bishen-jayawardhana-274a7b368" target="_blank">
@@ -42,7 +42,7 @@
 
 ---
 
-### About Me
+### <img src="https://api.iconify.design/lucide:shield.svg?color=%2300F5D4" width="18" height="18" align="center" /> About Me
 
 ```yaml
 name: Bishen Jayawardhana
@@ -54,15 +54,15 @@ academic:
 mindset: "Don't just write code — understand how it works under the hood and how to defend it."
 ```
 
-- **Academics:** Pursuing a Bachelor's in **Cyber Security** at **NSBM Green University** (Affiliated with **Victoria University, Australia**).
-- **Cyber Security Interests:** Network Security, Ethical Hacking, Web Application Security (OWASP Top 10), Penetration Testing & Threat Assessment.
-- **Software Development:** Building modern full-stack web platforms with responsive UI, resilient backends, and clean RESTful APIs.
-- **Current Focus:** Engineering the [AutoIntel Store](https://autointelstore.com) automotive platform and deepening systems security knowledge.
-- **Off-duty:** Tech research, cybersecurity capture-the-flags (CTFs), and curating tracks on [Spotify](https://open.spotify.com/user/31aizozjdk4invcobmpavvn7qaoa).
+- <img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Academics:** Pursuing a Bachelor's in **Cyber Security** at **NSBM Green University** (Affiliated with **Victoria University, Australia**).
+- <img src="https://api.iconify.design/lucide:shield-alert.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Cyber Security Interests:** Network Security, Ethical Hacking, Web Application Security (OWASP Top 10), Penetration Testing & Threat Assessment.
+- <img src="https://api.iconify.design/lucide:code-2.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Software Development:** Building modern full-stack web platforms with responsive UI, resilient backends, and clean RESTful APIs.
+- <img src="https://api.iconify.design/lucide:crosshair.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Current Focus:** Engineering the [AutoIntel Store](https://autointelstore.com) automotive platform and deepening systems security knowledge.
+- <img src="https://api.iconify.design/lucide:headphones.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Off-duty:** Tech research, cybersecurity capture-the-flags (CTFs), and curating tracks on [Spotify](https://open.spotify.com/user/31aizozjdk4invcobmpavvn7qaoa).
 
 ---
 
-### Tech Stack & Security Arsenal
+### <img src="https://api.iconify.design/lucide:cpu.svg?color=%2300F5D4" width="18" height="18" align="center" /> Tech Stack & Security Arsenal
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -76,17 +76,17 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **Cyber Security & Systems** | Linux (Kali / Ubuntu), Bash Scripting, Python, Wireshark, Nmap, Network Defense, OWASP |
-| **Frontend Engineering** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML5 / CSS3 |
-| **Backend & APIs** | Node.js, Express, RESTful APIs, Secure Authentication (JWT / OAuth) |
-| **Databases & Storage** | MySQL, PostgreSQL |
-| **DevOps & Collaboration** | Docker, Git, GitHub Actions, Postman, Linux CLI |
+| <img src="https://api.iconify.design/lucide:shield-check.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Cyber Security & Systems** | Linux (Kali / Ubuntu), Bash Scripting, Python, Wireshark, Nmap, Network Defense, OWASP |
+| <img src="https://api.iconify.design/lucide:layout.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Frontend Engineering** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML5 / CSS3 |
+| <img src="https://api.iconify.design/lucide:server.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Backend & APIs** | Node.js, Express, RESTful APIs, Secure Authentication (JWT / OAuth) |
+| <img src="https://api.iconify.design/lucide:database.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Databases & Storage** | MySQL, PostgreSQL |
+| <img src="https://api.iconify.design/lucide:git-branch.svg?color=%2300F5D4" width="16" height="16" align="center" /> **DevOps & Collaboration** | Docker, Git, GitHub Actions, Postman, Linux CLI |
 
 </details>
 
 ---
 
-### GitHub Analytics
+### <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%2300F5D4" width="18" height="18" align="center" /> GitHub Analytics
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
@@ -105,16 +105,16 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 ---
 
-### Featured Projects
+### <img src="https://api.iconify.design/lucide:folder-git-2.svg?color=%2300F5D4" width="18" height="18" align="center" /> Featured Projects
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
-| **AutoIntel Store** | Automotive marketplace & spare parts management ecosystem with interactive catalog and admin dashboard. | `React` `TypeScript` `Node.js` `MySQL` | [Live Site](https://autointelstore.com) |
-| **Cyber Security Labs** | Practical security labs, vulnerability scanning, network traffic analysis, and CTF challenges. | `Python` `Bash` `Linux` `Wireshark` | [Explore](https://github.com/bishenjayawardhana) |
+| <img src="https://api.iconify.design/lucide:car.svg?color=%2300F5D4" width="16" height="16" align="center" /> **AutoIntel Store** | Automotive marketplace & spare parts management ecosystem with interactive catalog and admin dashboard. | `React` `TypeScript` `Node.js` `MySQL` | [Live Site](https://autointelstore.com) |
+| <img src="https://api.iconify.design/lucide:binary.svg?color=%2300F5D4" width="16" height="16" align="center" /> **Cyber Security Labs** | Practical security labs, vulnerability scanning, network traffic analysis, and CTF challenges. | `Python` `Bash` `Linux` `Wireshark` | [Explore](https://github.com/bishenjayawardhana) |
 
 ---
 
-### Contribution Activity Snake
+### <img src="https://api.iconify.design/lucide:activity.svg?color=%2300F5D4" width="18" height="18" align="center" /> Contribution Activity Snake
 
 <div align="center">
 
