@@ -57,7 +57,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 - 🎓 **Academics:** Pursuing a Bachelor's in **Cyber Security** at **NSBM Green University** (Affiliated with **Victoria University, Australia**).
 - 🛡️ **Cyber Security Interests:** Network Security, Ethical Hacking, Web Application Security (OWASP Top 10), Penetration Testing & Threat Assessment.
 - 💻 **Software Development:** Building modern full-stack web platforms with responsive UI, resilient backends, and clean RESTful APIs.
-- 🔭 **Current Focus:** Engineering the [AutoParts LK](https://github.com/bishenjayawardhana) automotive platform and deepening systems security knowledge.
+- 🔭 **Current Focus:** Engineering the [AutoIntel Store](https://autointelstore.com) automotive platform and deepening systems security knowledge.
 - 🎧 **Off-duty:** Tech research, cybersecurity capture-the-flags (CTFs), and curating tracks on [Spotify](https://open.spotify.com/user/31aizozjdk4invcobmpavvn7qaoa).
 
 ---
@@ -109,7 +109,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 | Project | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
-| 🚗 **AutoParts LK** | Automotive marketplace & spare parts management ecosystem with interactive catalog and admin dashboard. | `React` `TypeScript` `Node.js` `MySQL` | [View Repo](https://github.com/bishenjayawardhana) |
+| 🚗 **AutoIntel Store** | Automotive marketplace & spare parts management ecosystem with interactive catalog and admin dashboard. | `React` `TypeScript` `Node.js` `MySQL` | [Live Site](https://autointelstore.com) |
 | 🛡️ **Cyber Security Labs** | Practical security labs, vulnerability scanning, network traffic analysis, and CTF challenges. | `Python` `Bash` `Linux` `Wireshark` | [Explore](https://github.com/bishenjayawardhana) |
 
 ---
