@@ -7,7 +7,12 @@
   </a>
 
   <p align="center">
-    <a href="https://github.com/bishenjayawardhana"><img src="https://komarev.com/ghpvc/?username=bishenjayawardhana&label=Profile%20Views&color=00F5D4&style=flat-square" alt="Profile views" /></a>
+    <a href="https://github.com/bishenjayawardhana">
+      <img src="https://komarev.com/ghpvc/?username=bishenjayawardhana&label=Profile%20Views&color=00F5D4&style=for-the-badge" alt="Profile views" />
+    </a>
+  </p>
+
+  <p align="center">
     <img src="https://img.shields.io/badge/Status-Securing%20%26%20Building-00F5D4?style=flat-square&logo=shield&logoColor=black" alt="Status" />
     <img src="https://img.shields.io/badge/Degree-Cyber%20Security%20(VU%20Australia)-7928CA?style=flat-square&logo=graduation-cap&logoColor=white" alt="Degree" />
   </p>
@@ -129,5 +134,10 @@ mindset: "Don't just write code — understand how it works under the hood and h
 ---
 
 <div align="center">
+  <p align="center">
+    <a href="https://github.com/bishenjayawardhana">
+      <img src="https://komarev.com/ghpvc/?username=bishenjayawardhana&label=Profile%20Views&color=00F5D4&style=for-the-badge" alt="Profile views" />
+    </a>
+  </p>
   <sub>Designed by <b><a href="https://github.com/bishenjayawardhana">Bishen Jayawardhana</a></b> • Stay curious & stay secure</sub>
 </div>
