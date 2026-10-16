@@ -104,7 +104,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img src="https://streak-stats.demolab.com?user=bishenjayawardhana&theme=tokyonight&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+    <img src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/streak.svg" alt="GitHub Streak" />
   </a>
 </p>
 
