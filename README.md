@@ -33,14 +33,14 @@
 
   <!-- ==================== THEME PREVIEW DRAWER ==================== -->
   <details>
-    <summary><b>🎨 Explore All 3 Atmospheric Themes (SOLIX · FLUXEDIT · PELMATECH)</b></summary>
+    <summary><b>System Designs: Solix · FluxEdit · Pelmatech</b></summary>
     <br/>
     <p align="center">
-      <b>1. SOLIX — Deep Royal Blue · Stardust Constellation · Bubblegum Pink</b><br/>
+      <b>SOLIX — Deep Royal Blue · Stardust Constellation · Bubblegum Pink</b><br/>
       <img src="./assets/solix-hero.jpg" width="100%" alt="SOLIX Theme" /><br/><br/>
-      <b>2. FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
+      <b>FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
       <img src="./assets/fluxedit-hero.jpg" width="100%" alt="FLUXEDIT Theme" /><br/><br/>
-      <b>3. PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
+      <b>PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
       <img src="./assets/pelmatech-hero.jpg" width="100%" alt="PELMATECH Theme" />
     </p>
   </details>
@@ -49,7 +49,7 @@
 
 ---
 
-### 🛠️ Technical Stack & Tooling
+### Technical Stack & Systems Tooling
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -73,7 +73,7 @@
 
 ---
 
-### 📊 Real-Time Telemetry & Engineering Metrics
+### Telemetry & Engineering Metrics
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
@@ -86,7 +86,7 @@
 
 ---
 
-### 🕹️ Contribution Telemetry
+### Contribution Activity
 
 <div align="center">
 
