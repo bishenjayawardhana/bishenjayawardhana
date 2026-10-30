@@ -31,25 +31,21 @@
 
   <br/>
 
-  <!-- ==================== THEME PREVIEW DRAWER ==================== -->
-  <details>
-    <summary><b>System Designs: Solix · FluxEdit · Pelmatech</b></summary>
-    <br/>
-    <p align="center">
-      <b>SOLIX — Deep Royal Blue · Stardust Constellation · Bubblegum Pink</b><br/>
-      <img src="./assets/solix-hero.jpg" width="100%" alt="SOLIX Theme" /><br/><br/>
-      <b>FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
-      <img src="./assets/fluxedit-hero.jpg" width="100%" alt="FLUXEDIT Theme" /><br/><br/>
-      <b>PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
-      <img src="./assets/pelmatech-hero.jpg" width="100%" alt="PELMATECH Theme" />
-    </p>
-  </details>
-
 </div>
 
 ---
 
-### Technical Stack & Systems Tooling
+### Live Architecture & Systems Telemetry
+
+<div align="center">
+  <img src="./assets/bento-grid.svg" width="100%" alt="Security Posture, Alerts by Scan Type, and Platform Telemetry" />
+</div>
+
+<br/>
+
+---
+
+### Technical Arsenal & Multi-Disciplinary Tooling
 
 <div align="center">
   <img src="./assets/tech-arsenal.svg" width="100%" alt="Technical Capabilities & Engineering Arsenal" />
@@ -92,6 +88,23 @@
 
 ---
 
+### System Designs: Solix · FluxEdit · Pelmatech
+
+<details>
+  <summary><b>Click to View All 3 Full-Resolution Website System Renders</b></summary>
+  <br/>
+  <p align="center">
+    <b>1. SOLIX — Deep Royal Blue · Celestial Stardust Canopy · Bubblegum Pink</b><br/>
+    <img src="./assets/solix-hero.jpg" width="100%" alt="SOLIX Theme" /><br/><br/>
+    <b>2. FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
+    <img src="./assets/fluxedit-hero.jpg" width="100%" alt="FLUXEDIT Theme" /><br/><br/>
+    <b>3. PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
+    <img src="./assets/pelmatech-hero.jpg" width="100%" alt="PELMATECH Theme" />
+  </p>
+</details>
+
+---
+
 <div align="center">
-  <sub>Engineered by <b><a href="https://github.com/bishenjayawardhana">Bishen Jayawardhana</a></b> • Stay curious & stay secure</sub>
+  <sub>Engineered by <b><a href="https://github.com/bishenjayawardhana">Bishen Jayawardhana</a></b> · Stay curious &amp; stay secure</sub>
 </div>
