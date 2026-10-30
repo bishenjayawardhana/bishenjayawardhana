@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 430" width="850" height="430" fill="none">
   <defs>
-    <!-- ==================== SOLIX DEFS ==================== -->
-    <radialGradient id="solix-bg-glow" cx="50%" cy="38%" r="65%">
+    <!-- ==================== cyber_defense DEFS ==================== -->
+    <radialGradient id="cyber_defense-bg-glow" cx="50%" cy="38%" r="65%">
       <stop offset="0%" stop-color="#144fe6" stop-opacity="0.9" />
       <stop offset="45%" stop-color="#09318d" stop-opacity="0.8" />
       <stop offset="85%" stop-color="#041133" />
       <stop offset="100%" stop-color="#02081c" />
     </radialGradient>
-    <radialGradient id="solix-floor-glow" cx="50%" cy="100%" r="55%">
+    <radialGradient id="cyber_defense-floor-glow" cx="50%" cy="100%" r="55%">
       <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.32" />
       <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#09318d" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="solix-orb-pink" cx="40%" cy="40%" r="60%">
+    <radialGradient id="cyber_defense-orb-pink" cx="40%" cy="40%" r="60%">
       <stop offset="0%" stop-color="#fd91cc" stop-opacity="0.8" />
       <stop offset="70%" stop-color="#f43f5e" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#fd91cc" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="solix-orb-blue" cx="30%" cy="30%" r="70%">
+    <radialGradient id="cyber_defense-orb-blue" cx="30%" cy="30%" r="70%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
       <stop offset="40%" stop-color="#60a5fa" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0" />
     </radialGradient>
 
-    <!-- ==================== FLUXEDIT DEFS ==================== -->
+    <!-- ==================== systems_velocity DEFS ==================== -->
     <linearGradient id="flux-aurora-ray1" x1="0%" y1="100%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#0297de" stop-opacity="0.65" />
       <stop offset="45%" stop-color="#0369a1" stop-opacity="0.35" />
@@ -42,7 +42,7 @@
       <stop offset="100%" stop-color="#02070a" stop-opacity="0" />
     </radialGradient>
 
-    <!-- ==================== PELMATECH DEFS ==================== -->
+    <!-- ==================== cloud_architecture DEFS ==================== -->
     <linearGradient id="pelma-sky-bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0593c6" />
       <stop offset="100%" stop-color="#026aa2" />
@@ -64,30 +64,30 @@
 
   <style>
     /* Continuous 24-second Tri-Theme Carousel Animation */
-    @keyframes cycle-theme-solix {
+    @keyframes cycle-theme-cyber_defense {
       0%, 28% { opacity: 1; visibility: visible; }
       33%, 95% { opacity: 0; visibility: hidden; }
       100% { opacity: 1; visibility: visible; }
     }
-    @keyframes cycle-theme-fluxedit {
+    @keyframes cycle-theme-systems_velocity {
       0%, 28% { opacity: 0; visibility: hidden; }
       33%, 61% { opacity: 1; visibility: visible; }
       66%, 100% { opacity: 0; visibility: hidden; }
     }
-    @keyframes cycle-theme-pelmatech {
+    @keyframes cycle-theme-cloud_architecture {
       0%, 61% { opacity: 0; visibility: hidden; }
       66%, 95% { opacity: 1; visibility: visible; }
       100% { opacity: 0; visibility: hidden; }
     }
 
-    .theme-layer-solix {
-      animation: cycle-theme-solix 24s ease-in-out infinite;
+    .theme-layer-cyber_defense {
+      animation: cycle-theme-cyber_defense 24s ease-in-out infinite;
     }
-    .theme-layer-fluxedit {
-      animation: cycle-theme-fluxedit 24s ease-in-out infinite;
+    .theme-layer-systems_velocity {
+      animation: cycle-theme-systems_velocity 24s ease-in-out infinite;
     }
-    .theme-layer-pelmatech {
-      animation: cycle-theme-pelmatech 24s ease-in-out infinite;
+    .theme-layer-cloud_architecture {
+      animation: cycle-theme-cloud_architecture 24s ease-in-out infinite;
     }
 
     /* Common Typography */
@@ -103,7 +103,7 @@
       font-weight: 500;
       font-size: 11.5px;
     }
-    .solix-h1 {
+    .cyber_defense-h1 {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
       font-weight: 800;
       font-size: 44px;
@@ -129,12 +129,12 @@
   </style>
 
   <!-- ========================================================================= -->
-  <!-- THEME 1: SOLIX (DEEP BLUE + STARDUST CONSTELLATION + BUBBLEGUM PINK)      -->
+  <!-- THEME 1: cyber_defense (DEEP BLUE + STARDUST CONSTELLATION + BUBBLEGUM PINK)      -->
   <!-- ========================================================================= -->
-  <g class="theme-layer-solix">
-    <!-- Solix Deep Blue Background -->
+  <g class="theme-layer-cyber_defense">
+    <!-- cyber_defense Deep Blue Background -->
     <rect x="0" y="0" width="850" height="430" rx="20" fill="#030c24" />
-    <rect x="0" y="0" width="850" height="430" rx="20" fill="url(#solix-bg-glow)" />
+    <rect x="0" y="0" width="850" height="430" rx="20" fill="url(#cyber_defense-bg-glow)" />
 
     <!-- Stardust Constellation Canopy -->
     <g>
@@ -291,22 +291,22 @@
     </g>
 
     <!-- Bottom Soft Floor Illumination -->
-    <rect x="0" y="180" width="850" height="250" fill="url(#solix-floor-glow)" opacity="0.8" />
+    <rect x="0" y="180" width="850" height="250" fill="url(#cyber_defense-floor-glow)" opacity="0.8" />
 
-    <!-- Ambient Glowing Orbs (Exact Solix Screenshot) -->
+    <!-- Ambient Glowing Orbs (Exact cyber_defense Screenshot) -->
     <!-- Left Orb: Soft Cyan Orb -->
-    <circle cx="210" cy="300" r="18" fill="url(#solix-orb-blue)" opacity="0.6" />
+    <circle cx="210" cy="300" r="18" fill="url(#cyber_defense-orb-blue)" opacity="0.6" />
     <circle cx="210" cy="300" r="18" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.6" fill="none" />
 
     <!-- Right Orb: Hot Pink Orb -->
-    <circle cx="600" cy="270" r="15" fill="url(#solix-orb-pink)" opacity="0.8" />
+    <circle cx="600" cy="270" r="15" fill="url(#cyber_defense-orb-pink)" opacity="0.8" />
     <circle cx="600" cy="270" r="15" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.8" fill="none" />
 
     <!-- Top Nav Header -->
     <g transform="translate(40, 26)">
       <rect x="0" y="3" width="16" height="16" rx="4" fill="#fd91cc" />
       <path d="M4 8 L8 4 L12 8 L8 12 Z" fill="#030c24" />
-      <text x="24" y="16" class="brand-text">BISHEN // SOLIX</text>
+      <text x="24" y="16" class="brand-text">BISHEN // SYSTEMS DEFENSE</text>
 
       <!-- Center Capsule Nav -->
       <g transform="translate(230, 0)">
@@ -331,8 +331,8 @@
     </text>
 
     <!-- Display Headline -->
-    <text x="425" y="176" class="solix-h1">Enterprise Security</text>
-    <text x="425" y="226" class="solix-h1">Without Complexity.</text>
+    <text x="425" y="176" class="cyber_defense-h1">Enterprise Security</text>
+    <text x="425" y="226" class="cyber_defense-h1">Without Complexity.</text>
 
     <!-- Subtitle -->
     <text x="425" y="268" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13.5" fill="#bfdbfe">
@@ -356,9 +356,9 @@
   </g>
 
   <!-- ========================================================================= -->
-  <!-- THEME 2: FLUXEDIT (MIDNIGHT + ELECTRIC BLUE AURORA + CANTALOUPE SUNRISE)  -->
+  <!-- THEME 2: systems_velocity (MIDNIGHT + ELECTRIC BLUE AURORA + CANTALOUPE SUNRISE)  -->
   <!-- ========================================================================= -->
-  <g class="theme-layer-fluxedit">
+  <g class="theme-layer-systems_velocity">
     <!-- Pitch Midnight Canvas -->
     <rect x="0" y="0" width="850" height="430" rx="20" fill="#02070a" />
 
@@ -382,7 +382,7 @@
     <!-- Top Nav Header -->
     <g transform="translate(40, 26)">
       <path d="M0 4 H4 V16 H0 Z M6 0 H10 V20 H6 Z M12 6 H16 V14 H12 Z" fill="#0297de" />
-      <text x="24" y="16" class="brand-text">BISHEN // FLUXEDIT</text>
+      <text x="24" y="16" class="brand-text">BISHEN // FULL-STACK</text>
 
       <g transform="translate(630, 0)">
         <rect width="140" height="28" rx="14" fill="#fc734d" />
@@ -390,7 +390,7 @@
       </g>
     </g>
 
-    <!-- Left / Right Stats on Flanks (FluxEdit Screenshot) -->
+    <!-- Left / Right Stats on Flanks (systems_velocity Screenshot) -->
     <g transform="translate(70, 180)">
       <text x="0" y="0" font-family="-apple-system, sans-serif" font-weight="700" font-size="16" fill="#ffffff">3x</text>
       <text x="0" y="16" font-family="-apple-system, sans-serif" font-weight="400" font-size="10.5" fill="#8fa3bf">Faster Velocity</text>
@@ -428,9 +428,9 @@
   </g>
 
   <!-- ========================================================================= -->
-  <!-- THEME 3: PELMATECH (SKY BLUE + VERTICAL STREAK + HOT PINK AURA)           -->
+  <!-- THEME 3: cloud_architecture (SKY BLUE + VERTICAL STREAK + HOT PINK AURA)           -->
   <!-- ========================================================================= -->
-  <g class="theme-layer-pelmatech">
+  <g class="theme-layer-cloud_architecture">
     <!-- Sky Blue Canvas -->
     <rect x="0" y="0" width="850" height="430" rx="20" fill="url(#pelma-sky-bg)" />
 
@@ -443,7 +443,7 @@
     <!-- Top Nav Header -->
     <g transform="translate(40, 26)">
       <circle cx="6" cy="10" r="6" fill="#ffffff" />
-      <text x="22" y="16" class="brand-text">BISHEN // PELMATECH</text>
+      <text x="22" y="16" class="brand-text">BISHEN // AUTOINTEL STORE</text>
 
       <g transform="translate(630, 0)">
         <rect width="140" height="28" rx="14" fill="#ffffff" />
@@ -451,7 +451,7 @@
       </g>
     </g>
 
-    <!-- Left Aligned Editorial Layout (Exact Pelmatech Screenshot) -->
+    <!-- Left Aligned Editorial Layout (Exact cloud_architecture Screenshot) -->
     <g transform="translate(60, 190)">
       <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-weight="800" font-size="44px" fill="#ffffff">Your Personal</text>
       <text x="0" y="50" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-weight="800" font-size="44px" fill="#ffffff">Systems Companion</text>
@@ -470,7 +470,7 @@
       </g>
     </g>
 
-    <!-- Floating Glass Telemetry Card on Right (Exact Pelmatech Screenshot) -->
+    <!-- Floating Glass Telemetry Card on Right (Exact cloud_architecture Screenshot) -->
     <g transform="translate(560, 120)">
       <rect width="230" height="230" rx="16" fill="#ffffff" fill-opacity="0.22" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.45" />
 

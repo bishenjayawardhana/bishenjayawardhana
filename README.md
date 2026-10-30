@@ -65,10 +65,10 @@
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/top-langs.svg" alt="Top Languages" />
+    <img height="175" src="./assets/top-langs.svg" alt="Top Languages" />
   </a>
   <a href="https://github.com/bishenjayawardhana">
-    <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/streak.svg" alt="GitHub Streak" />
+    <img height="175" src="./assets/streak.svg" alt="GitHub Streak" />
   </a>
 </p>
 
@@ -88,18 +88,21 @@
 
 ---
 
-### System Designs: Solix · FluxEdit · Pelmatech
+### Visual Design Architecture & System Renders
 
 <details>
-  <summary><b>Click to View All 3 Full-Resolution Website System Renders</b></summary>
+  <summary><b>Click to View All 3 Full-Resolution Design Themes</b></summary>
   <br/>
   <p align="center">
-    <b>1. SOLIX — Deep Royal Blue · Celestial Stardust Canopy · Bubblegum Pink</b><br/>
-    <img src="./assets/solix-hero.jpg" width="100%" alt="SOLIX Theme" /><br/><br/>
-    <b>2. FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
-    <img src="./assets/fluxedit-hero.jpg" width="100%" alt="FLUXEDIT Theme" /><br/><br/>
-    <b>3. PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
-    <img src="./assets/pelmatech-hero.jpg" width="100%" alt="PELMATECH Theme" />
+    <b>Theme 1: Cyber Security &amp; Systems Defense</b><br/>
+    <sub>Deep Royal Blue · Celestial Stardust Canopy · Radiant Bubblegum Pink</sub><br/>
+    <img src="./assets/cyber-defense-hero.jpg" width="100%" alt="Cyber Security &amp; Systems Defense Theme" /><br/><br/>
+    <b>Theme 2: High-Velocity Distributed Systems</b><br/>
+    <sub>Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</sub><br/>
+    <img src="./assets/systems-velocity-hero.jpg" width="100%" alt="High-Velocity Distributed Systems Theme" /><br/><br/>
+    <b>Theme 3: Digital Platform Architecture</b><br/>
+    <sub>Sky Blue · Fluted Glass Motion Texture · Vibrant Hot Pink</sub><br/>
+    <img src="./assets/cloud-architecture-hero.jpg" width="100%" alt="Digital Platform Architecture Theme" />
   </p>
 </details>
 

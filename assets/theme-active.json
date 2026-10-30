@@ -1,9 +1,10 @@
 {
-  "activeTheme": "solix",
-  "accent": "#fd91cc",
-  "accentSecondary": "#3b82f6",
+  "activeTheme": "cloud-architecture",
+  "themeName": "Digital Platform Architecture",
+  "accent": "#d83995",
+  "accentSecondary": "#0593c8",
   "snakeColors": {
-    "dark": "#061533,#0a295c,#0e3d8c,#1a5bc7,#fd91cc",
-    "snakeDark": "#fd91cc"
+    "dark": "#061d36,#093c6b,#0572a6,#0593c8,#d83995",
+    "snakeDark": "#d83995"
   }
 }

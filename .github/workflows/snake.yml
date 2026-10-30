@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # automatically rotates theme (solix -> fluxedit -> pelmatech)
+      # automatically rotates theme (cyber-defense -> systems-velocity -> cloud-architecture)
       - name: rotate theme automatically
         run: node scripts/theme-manager.js auto
 

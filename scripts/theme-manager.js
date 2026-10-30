@@ -2,37 +2,37 @@ const fs = require('fs');
 const path = require('path');
 
 const THEMES = {
-  solix: {
-    id: 'solix',
-    name: 'SOLIX — Cyber Security & Intelligence',
-    accentName: 'Bubblegum Pink',
+  'cyber-defense': {
+    id: 'cyber-defense',
+    name: 'Cyber Security & Systems Defense',
+    accentName: 'Bubblegum Pink & Deep Blue',
     accent: '#fd91cc',
     accentSecondary: '#3b82f6',
-    imageFile: 'solix-hero.jpg',
+    imageFile: 'cyber-defense-hero.jpg',
     snakeColors: {
       dark: '#061533,#0a295c,#0e3d8c,#1a5bc7,#fd91cc',
       snakeDark: '#fd91cc'
     }
   },
-  fluxedit: {
-    id: 'fluxedit',
-    name: 'FLUXEDIT — Midnight Precision & Velocity',
+  'systems-velocity': {
+    id: 'systems-velocity',
+    name: 'High-Velocity Distributed Systems',
     accentName: 'Cantaloupe Orange & Electric Blue',
     accent: '#fc734d',
     accentSecondary: '#0297de',
-    imageFile: 'fluxedit-hero.jpg',
+    imageFile: 'systems-velocity-hero.jpg',
     snakeColors: {
       dark: '#071017,#0a2233,#025d8a,#0297de,#fc734d',
       snakeDark: '#fc734d'
     }
   },
-  pelmatech: {
-    id: 'pelmatech',
-    name: 'PELMATECH — Digital Health & Modern Velocity',
-    accentName: 'Sky Blue & Hot Pink',
+  'cloud-architecture': {
+    id: 'cloud-architecture',
+    name: 'Digital Platform Architecture',
+    accentName: 'Sky Blue & Radiant Hot Pink',
     accent: '#d83995',
     accentSecondary: '#0593c8',
-    imageFile: 'pelmatech-hero.jpg',
+    imageFile: 'cloud-architecture-hero.jpg',
     snakeColors: {
       dark: '#061d36,#093c6b,#0572a6,#0593c8,#d83995',
       snakeDark: '#d83995'
@@ -41,7 +41,7 @@ const THEMES = {
 };
 
 function getActiveTheme() {
-  const themeList = ['solix', 'fluxedit', 'pelmatech'];
+  const themeList = ['cyber-defense', 'systems-velocity', 'cloud-architecture'];
   // Rotate every 6 hours based on UTC hour
   const hourSlot = Math.floor(Date.now() / (1000 * 60 * 60 * 6));
   const currentKey = themeList[hourSlot % themeList.length];
@@ -70,6 +70,7 @@ function applyTheme(themeKey) {
   // 2. Write theme config for postprocessing
   const themeConfig = {
     activeTheme: theme.id,
+    themeName: theme.name,
     accent: theme.accent,
     accentSecondary: theme.accentSecondary,
     snakeColors: theme.snakeColors
