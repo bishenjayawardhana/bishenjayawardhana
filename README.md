@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- ==================== LUXURY WEBSITE HERO ==================== -->
-  <a href="https://github.com/bishenjayawardhana">
-    <img src="./assets/active-hero.jpg" width="100%" alt="Bishen Jayawardhana — Cyber Security & Full-Stack Systems Engineer" />
+  <!-- ==================== CODE-CRAFTED DYNAMIC VECTOR HERO ==================== -->
+  <a href="https://autointelstore.com" target="_blank">
+    <img src="./assets/hero-banner.svg" width="100%" alt="Bishen Jayawardhana — Cyber Security &amp; Full-Stack Systems Engineer" />
   </a>
 
   <br/><br/>
