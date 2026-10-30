@@ -1,255 +1,325 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="850" height="360" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 310" width="850" height="310" fill="none">
   <defs>
-    <!-- Card Gradients -->
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.95" />
+    <!-- Solix Card Surfaces -->
+    <linearGradient id="glass-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#f0f6ff" stop-opacity="0.92" />
     </linearGradient>
 
-    <!-- Glowing Border Gradient -->
-    <linearGradient id="border-blue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.2" />
+    <!-- Center Radiant Hot Pink Card (Solix) -->
+    <linearGradient id="pink-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4794" />
+      <stop offset="50%" stop-color="#fd6ca9" />
+      <stop offset="100%" stop-color="#ff85be" />
     </linearGradient>
 
-    <linearGradient id="border-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#238636" stop-opacity="0.2" />
+    <!-- Center Radiant Cantaloupe Card (FluxEdit) -->
+    <linearGradient id="orange-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fc734d" />
+      <stop offset="100%" stop-color="#ea580c" />
     </linearGradient>
 
-    <linearGradient id="border-purple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#8957e5" stop-opacity="0.2" />
-    </linearGradient>
-
-    <!-- Accent glows -->
-    <radialGradient id="cyan-glow" cx="10%" cy="10%" r="60%">
-      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="blue-glow" cx="90%" cy="10%" r="60%">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="purple-glow" cx="50%" cy="0%" r="70%">
-      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
-    </radialGradient>
+    <!-- Drop Shadows -->
+    <filter id="pink-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#ff4794" flood-opacity="0.45" />
+    </filter>
+    <filter id="glass-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020817" flood-opacity="0.5" />
+    </filter>
   </defs>
 
   <style>
-    .card-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+    /* Carousel Sync */
+    @keyframes cycle-bento-solix {
+      0%, 28% { opacity: 1; visibility: visible; }
+      33%, 95% { opacity: 0; visibility: hidden; }
+      100% { opacity: 1; visibility: visible; }
+    }
+    @keyframes cycle-bento-fluxedit {
+      0%, 28% { opacity: 0; visibility: hidden; }
+      33%, 61% { opacity: 1; visibility: visible; }
+      66%, 100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes cycle-bento-pelmatech {
+      0%, 61% { opacity: 0; visibility: hidden; }
+      66%, 95% { opacity: 1; visibility: visible; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+
+    .bento-layer-solix {
+      animation: cycle-bento-solix 24s ease-in-out infinite;
+    }
+    .bento-layer-fluxedit {
+      animation: cycle-bento-fluxedit 24s ease-in-out infinite;
+    }
+    .bento-layer-pelmatech {
+      animation: cycle-bento-pelmatech 24s ease-in-out infinite;
+    }
+
+    .card-heading {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
       font-weight: 700;
-      font-size: 16px;
-      letter-spacing: -0.2px;
+      font-size: 13.5px;
+      fill: #0c1e3d;
     }
-    .card-sub {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
-      font-weight: 600;
-      font-size: 10.5px;
-      letter-spacing: 0.8px;
-    }
-    .body-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
-      font-weight: 400;
-      font-size: 12.5px;
-      line-height: 1.45;
-    }
-    .tag-text {
-      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+    .metric-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
       font-weight: 500;
-      font-size: 11px;
+      font-size: 10px;
+      fill: #5b739b;
+    }
+    .pink-card-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 11.5px;
+      fill: #ffffff;
+      opacity: 0.95;
+    }
+    .gauge-number {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: #ffffff;
+      text-anchor: middle;
+      letter-spacing: -1px;
     }
   </style>
 
-  <!-- ==================== CARD 1: CYBER SECURITY ==================== -->
-  <g transform="translate(7, 7)">
-    <rect width="410" height="195" rx="14" fill="url(#card-grad)" stroke="url(#border-cyan)" stroke-width="1.2" />
-    <rect width="410" height="195" rx="14" fill="url(#cyan-glow)" />
-
-    <!-- Header Icon + Title -->
-    <g transform="translate(20, 20)">
-      <!-- Shield Icon Badge -->
-      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <path d="M16 8 L24 11 V17 C24 21.5 16 25 16 25 C16 25 8 21.5 8 17 V11 Z" fill="none" stroke="#00f5d4" stroke-width="1.6" stroke-linejoin="round" />
-      <path d="M13 16 L15 18 L19 14" fill="none" stroke="#00f5d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-
-      <text x="42" y="14" fill="#00f5d4" class="card-sub">OFFENSIVE &amp; DEFENSIVE SECURITY</text>
-      <text x="42" y="30" fill="#ffffff" class="card-title">Systems &amp; Network Defense</text>
+  <!-- ==================== SOLIX BENTO (CARDS 1, 2, 3) ==================== -->
+  <g class="bento-layer-solix">
+    <!-- CARD 1: ALERTS BY SCAN TYPE (LEFT) -->
+    <g transform="translate(10, 20)" filter="url(#glass-shadow)">
+      <rect width="275" height="260" rx="16" fill="url(#glass-card)" stroke="#dbeafe" stroke-width="1.2" />
+      <g transform="translate(18, 18)">
+        <rect width="24" height="24" rx="6" fill="#eff6ff" />
+        <path d="M12 6 L17 8.5 V13 C17 16 12 18 12 18 C12 18 7 16 7 13 V8.5 Z" fill="none" stroke="#2563eb" stroke-width="1.4" stroke-linejoin="round" />
+        <text x="32" y="16" class="card-heading">Alerts by Scan Type</text>
+      </g>
+      <g transform="translate(18, 62)">
+        <text x="0" y="10" class="metric-sub">SAST &amp; OWASP Defense</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#2563eb">94%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#e2e8f0" />
+          <rect width="160" height="9" rx="4.5" fill="#2563eb" />
+          <rect x="164" width="60" height="9" rx="4.5" fill="#ff4794" />
+        </g>
+      </g>
+      <g transform="translate(18, 110)">
+        <text x="0" y="10" class="metric-sub">DAST &amp; Network Traffic</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#2563eb">88%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#e2e8f0" />
+          <rect width="130" height="9" rx="4.5" fill="#ff4794" />
+          <rect x="134" width="85" height="9" rx="4.5" fill="#3b82f6" />
+        </g>
+      </g>
+      <g transform="translate(18, 158)">
+        <text x="0" y="10" class="metric-sub">API Security &amp; OAuth 2.0</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#2563eb">96%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#e2e8f0" />
+          <rect width="190" height="9" rx="4.5" fill="#2563eb" />
+          <rect x="194" width="38" height="9" rx="4.5" fill="#ff4794" />
+        </g>
+      </g>
+      <g transform="translate(18, 206)">
+        <text x="0" y="10" class="metric-sub">Linux &amp; Kernel Hardening</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#2563eb">91%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#e2e8f0" />
+          <rect width="145" height="9" rx="4.5" fill="#ff4794" />
+          <rect x="149" width="70" height="9" rx="4.5" fill="#2563eb" />
+        </g>
+      </g>
     </g>
 
-    <text x="20" y="80" fill="#8b949e" class="body-text">
-      Identifying attack vectors, performing ethical audits, and
-    </text>
-    <text x="20" y="98" fill="#8b949e" class="body-text">
-      engineering hardened, zero-trust infrastructure.
-    </text>
-
-    <!-- Security Tech Pills -->
-    <g transform="translate(20, 118)">
-      <g transform="translate(0, 0)">
-        <rect width="115" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">OWASP Top 10</text>
+    <!-- CARD 2: RADIANT PINK SPEEDOMETER GAUGE (CENTER) -->
+    <g transform="translate(300, 5)" filter="url(#pink-shadow)">
+      <rect width="250" height="290" rx="20" fill="url(#pink-card)" />
+      <g transform="translate(20, 20)">
+        <circle cx="6" cy="6" r="4" fill="#ffffff" />
+        <text x="16" y="9" class="pink-card-title">Security Posture Score</text>
+        <g transform="translate(162, -4)">
+          <rect width="38" height="22" rx="11" fill="#ffffff" fill-opacity="0.25" />
+          <text x="19" y="15" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle" font-family="-apple-system, sans-serif">65</text>
+        </g>
       </g>
-      <g transform="translate(122, 0)">
-        <rect width="125" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Network Defense</text>
+      <g transform="translate(125, 175)">
+        <path d="M -85 0 A 85 85 0 0 1 85 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.35" stroke-linecap="round" />
+        <path d="M -85 0 A 85 85 0 0 1 45 -72" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" />
+        <path d="M -70 0 A 70 70 0 0 1 70 0" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="2 6" stroke-opacity="0.5" />
+        <text x="0" y="-12" class="gauge-number">65</text>
+        <text x="0" y="10" fill="#ffffff" opacity="0.9" font-size="11" font-weight="600" text-anchor="middle" font-family="-apple-system, sans-serif">OPTIMAL RESILIENCE</text>
+        <circle cx="0" cy="0" r="5" fill="#ffffff" />
+        <line x1="0" y1="0" x2="36" y2="-58" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
       </g>
-      <g transform="translate(254, 0)">
-        <rect width="116" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Penetration Test</text>
+      <g transform="translate(25, 252)">
+        <rect width="200" height="24" rx="12" fill="#ffffff" fill-opacity="0.2" />
+        <text x="100" y="16" fill="#ffffff" font-size="10.5" font-weight="700" text-anchor="middle" font-family="-apple-system, sans-serif">ZERO VULNERABILITIES FOUND</text>
       </g>
     </g>
 
-    <g transform="translate(20, 149)">
-      <g transform="translate(0, 0)">
-        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">Wireshark</text>
+    <!-- CARD 3: OPEN VS. RESOLVED (RIGHT) -->
+    <g transform="translate(565, 20)" filter="url(#glass-shadow)">
+      <rect width="275" height="260" rx="16" fill="url(#glass-card)" stroke="#dbeafe" stroke-width="1.2" />
+      <g transform="translate(18, 18)">
+        <rect width="24" height="24" rx="6" fill="#fdf2f8" />
+        <circle cx="12" cy="12" r="5" fill="#ff4794" />
+        <text x="32" y="16" class="card-heading">Open vs. Resolved</text>
       </g>
-      <g transform="translate(97, 0)">
-        <rect width="70" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">Nmap</text>
+      <g transform="translate(18, 52)">
+        <circle cx="4" cy="4" r="3.5" fill="#ff4794" />
+        <text x="12" y="7" class="metric-sub" font-size="9.5">Hardened Assets</text>
+        <circle cx="110" cy="4" r="3.5" fill="#2563eb" />
+        <text x="118" y="7" class="metric-sub" font-size="9.5">Resolved Threats</text>
       </g>
-      <g transform="translate(174, 0)">
-        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">Kali Linux</text>
+      <g transform="translate(18, 70)">
+        <rect width="238" height="120" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="0.8" />
+        <line x1="0" y1="40" x2="238" y2="40" stroke="#e2e8f0" stroke-dasharray="3 3" />
+        <line x1="0" y1="80" x2="238" y2="80" stroke="#e2e8f0" stroke-dasharray="3 3" />
+        <path d="M 10 95 Q 60 40 120 70 T 228 30 L 228 110 L 10 110 Z" fill="#ff4794" fill-opacity="0.12" />
+        <path d="M 10 95 Q 60 40 120 70 T 228 30" fill="none" stroke="#ff4794" stroke-width="2.5" stroke-linecap="round" />
+        <path d="M 10 105 Q 60 80 120 45 T 228 18" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" />
+        <circle cx="160" cy="48" r="5" fill="#ff4794" stroke="#ffffff" stroke-width="2" />
+        <line x1="160" y1="10" x2="160" y2="110" stroke="#ff4794" stroke-width="1" stroke-dasharray="2 2" stroke-opacity="0.6" />
+        <rect x="135" y="16" width="50" height="18" rx="4" fill="#0c1e3d" />
+        <text x="160" y="28" fill="#ffffff" font-size="9" font-weight="700" text-anchor="middle" font-family="-apple-system, sans-serif">98.2%</text>
       </g>
-      <g transform="translate(271, 0)">
-        <rect width="99" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">Bash / Python</text>
+      <g transform="translate(18, 206)">
+        <rect width="238" height="38" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+        <text x="12" y="16" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#1e40af">FLAGSHIP PLATFORM</text>
+        <text x="12" y="30" font-family="-apple-system, sans-serif" font-size="9.5" fill="#3b82f6">AutoIntel Store: E-Commerce &amp; Inventory</text>
+        <text x="224" y="24" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#2563eb" text-anchor="end">→</text>
       </g>
     </g>
   </g>
 
-  <!-- ==================== CARD 2: FULL STACK ==================== -->
-  <g transform="translate(433, 7)">
-    <rect width="410" height="195" rx="14" fill="url(#card-grad)" stroke="url(#border-blue)" stroke-width="1.2" />
-    <rect width="410" height="195" rx="14" fill="url(#blue-glow)" />
-
-    <!-- Header Icon + Title -->
-    <g transform="translate(20, 20)">
-      <!-- Code Icon Badge -->
-      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <path d="M13 12 L9 16 L13 20" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M19 12 L23 16 L19 20" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M17 10 L15 22" fill="none" stroke="#58a6ff" stroke-width="1.4" stroke-linecap="round" />
-
-      <text x="42" y="14" fill="#58a6ff" class="card-sub">SCALABLE ARCHITECTURE</text>
-      <text x="42" y="30" fill="#ffffff" class="card-title">Full-Stack Engineering</text>
-    </g>
-
-    <text x="20" y="80" fill="#8b949e" class="body-text">
-      Constructing production web platforms with typed APIs,
-    </text>
-    <text x="20" y="98" fill="#8b949e" class="body-text">
-      relational schemas, and fluid, responsive interfaces.
-    </text>
-
-    <!-- Engineering Tech Pills -->
-    <g transform="translate(20, 118)">
-      <g transform="translate(0, 0)">
-        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">TypeScript</text>
+  <!-- ==================== FLUXEDIT BENTO (CARDS 1, 2, 3) ==================== -->
+  <g class="bento-layer-fluxedit">
+    <g transform="translate(10, 20)" filter="url(#glass-shadow)">
+      <rect width="275" height="260" rx="16" fill="#091421" stroke="#0297de" stroke-width="1.2" stroke-opacity="0.6" />
+      <g transform="translate(18, 18)">
+        <circle cx="12" cy="12" r="6" fill="#0297de" />
+        <text x="32" y="16" class="card-heading" fill="#ffffff">Execution Velocity</text>
       </g>
-      <g transform="translate(97, 0)">
-        <rect width="85" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Next.js 14</text>
+      <g transform="translate(18, 62)">
+        <text x="0" y="10" class="metric-sub" fill="#93c5fd">Architecture Latency</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#fc734d">12ms</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#031c33" />
+          <rect width="200" height="9" rx="4.5" fill="#0297de" />
+        </g>
       </g>
-      <g transform="translate(189, 0)">
-        <rect width="78" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Node.js</text>
+      <g transform="translate(18, 110)">
+        <text x="0" y="10" class="metric-sub" fill="#93c5fd">TypeScript Type Safety</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#fc734d">100%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#031c33" />
+          <rect width="238" height="9" rx="4.5" fill="#fc734d" />
+        </g>
       </g>
-      <g transform="translate(274, 0)">
-        <rect width="96" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
-        <text x="18" y="16" fill="#c9d1d9" class="tag-text">RESTful APIs</text>
+      <g transform="translate(18, 158)">
+        <text x="0" y="10" class="metric-sub" fill="#93c5fd">API Throughput</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#0297de">99.8%</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#031c33" />
+          <rect width="215" height="9" rx="4.5" fill="#0297de" />
+        </g>
+      </g>
+      <g transform="translate(18, 206)">
+        <text x="0" y="10" class="metric-sub" fill="#93c5fd">Dockerized Services</text>
+        <text x="238" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#fc734d">Healthy</text>
+        <g transform="translate(0, 16)">
+          <rect width="238" height="9" rx="4.5" fill="#031c33" />
+          <rect width="180" height="9" rx="4.5" fill="#fc734d" />
+        </g>
       </g>
     </g>
 
-    <g transform="translate(20, 149)">
-      <g transform="translate(0, 0)">
-        <rect width="75" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">React.js</text>
+    <!-- Center Orange Gauge (FluxEdit) -->
+    <g transform="translate(300, 5)">
+      <rect width="250" height="290" rx="20" fill="url(#orange-card)" />
+      <g transform="translate(20, 20)">
+        <circle cx="6" cy="6" r="4" fill="#ffffff" />
+        <text x="16" y="9" class="pink-card-title">Throughput Index</text>
+        <g transform="translate(162, -4)">
+          <rect width="38" height="22" rx="11" fill="#ffffff" fill-opacity="0.25" />
+          <text x="19" y="15" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle" font-family="-apple-system, sans-serif">87</text>
+        </g>
       </g>
-      <g transform="translate(82, 0)">
-        <rect width="75" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">MySQL</text>
+      <g transform="translate(125, 175)">
+        <path d="M -85 0 A 85 85 0 0 1 85 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.35" stroke-linecap="round" />
+        <path d="M -85 0 A 85 85 0 0 1 55 -65" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" />
+        <text x="0" y="-12" class="gauge-number">87</text>
+        <text x="0" y="10" fill="#ffffff" opacity="0.9" font-size="11" font-weight="600" text-anchor="middle" font-family="-apple-system, sans-serif">PEAK VELOCITY</text>
+        <circle cx="0" cy="0" r="5" fill="#ffffff" />
+        <line x1="0" y1="0" x2="42" y2="-52" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
       </g>
-      <g transform="translate(164, 0)">
-        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">PostgreSQL</text>
+      <g transform="translate(25, 252)">
+        <rect width="200" height="24" rx="12" fill="#ffffff" fill-opacity="0.2" />
+        <text x="100" y="16" fill="#ffffff" font-size="10.5" font-weight="700" text-anchor="middle" font-family="-apple-system, sans-serif">3X FASTER SYSTEMS PIPELINE</text>
       </g>
-      <g transform="translate(261, 0)">
-        <rect width="109" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
-        <text x="10" y="16" fill="#8b949e" class="tag-text">Docker &amp; CI/CD</text>
+    </g>
+
+    <g transform="translate(565, 20)" filter="url(#glass-shadow)">
+      <rect width="275" height="260" rx="16" fill="#091421" stroke="#0297de" stroke-width="1.2" stroke-opacity="0.6" />
+      <g transform="translate(18, 18)">
+        <circle cx="12" cy="12" r="5" fill="#fc734d" />
+        <text x="32" y="16" class="card-heading" fill="#ffffff">Latency vs. Load</text>
+      </g>
+      <g transform="translate(18, 70)">
+        <rect width="238" height="120" rx="8" fill="#040c17" stroke="#0297de" stroke-width="0.8" stroke-opacity="0.4" />
+        <path d="M 10 95 Q 60 40 120 70 T 228 30" fill="none" stroke="#fc734d" stroke-width="2.5" stroke-linecap="round" />
+        <path d="M 10 105 Q 60 80 120 45 T 228 18" fill="none" stroke="#0297de" stroke-width="2" stroke-linecap="round" />
+      </g>
+      <g transform="translate(18, 206)">
+        <rect width="238" height="38" rx="8" fill="#031c33" stroke="#0297de" stroke-width="1" />
+        <text x="12" y="16" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700" fill="#38bdf8">AUTOINTEL STORE</text>
+        <text x="12" y="30" font-family="-apple-system, sans-serif" font-size="9.5" fill="#fc734d">Optimized Relational Schema</text>
       </g>
     </g>
   </g>
 
-  <!-- ==================== CARD 3: FLAGSHIP VENTURE (WIDE) ==================== -->
-  <g transform="translate(7, 212)">
-    <rect width="836" height="140" rx="14" fill="url(#card-grad)" stroke="url(#border-purple)" stroke-width="1.2" />
-    <rect width="836" height="140" rx="14" fill="url(#purple-glow)" />
-
-    <!-- Left side: Project details -->
-    <g transform="translate(24, 22)">
-      <!-- Rocket / Spark Icon -->
-      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <circle cx="16" cy="16" r="6" fill="#bc8cff" fill-opacity="0.25" />
-      <path d="M12 20 L14 14 L20 12 L16 18 Z" fill="#bc8cff" />
-
-      <text x="44" y="14" fill="#bc8cff" class="card-sub">FEATURED FLAGSHIP VENTURE</text>
-      <text x="44" y="30" fill="#ffffff" class="card-title">AutoIntel Store — Automotive Marketplace Ecosystem</text>
-
-      <text x="0" y="62" fill="#8b949e" class="body-text">
-        Full-lifecycle automotive spare parts catalog, inventory management system, and customer portal.
-      </text>
-      <text x="0" y="80" fill="#8b949e" class="body-text">
-        Engineered with TypeScript, React, Node.js, and relational schema optimization for high availability.
-      </text>
-
-      <!-- Bottom Tech Pills -->
-      <g transform="translate(0, 94)">
-        <g transform="translate(0, 0)">
-          <rect width="90" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">TypeScript</text>
-        </g>
-        <g transform="translate(96, 0)">
-          <rect width="70" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">React</text>
-        </g>
-        <g transform="translate(172, 0)">
-          <rect width="75" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">Node.js</text>
-        </g>
-        <g transform="translate(253, 0)">
-          <rect width="70" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">MySQL</text>
-        </g>
-        <g transform="translate(329, 0)">
-          <rect width="90" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
-          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">Tailwind CSS</text>
-        </g>
+  <!-- ==================== PELMATECH BENTO ==================== -->
+  <g class="bento-layer-pelmatech">
+    <g transform="translate(10, 20)">
+      <rect width="275" height="260" rx="16" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="1.2" />
+      <g transform="translate(18, 18)">
+        <text x="0" y="16" font-family="-apple-system, sans-serif" font-weight="700" font-size="14" fill="#ffffff">Active Telemetry</text>
+      </g>
+      <g transform="translate(18, 62)">
+        <text x="0" y="10" font-size="11" font-weight="600" fill="#ffffff">Systems Health</text>
+        <rect y="18" width="238" height="8" rx="4" fill="#ffffff" fill-opacity="0.3" />
+        <rect y="18" width="220" height="8" rx="4" fill="#ffffff" />
+      </g>
+      <g transform="translate(18, 110)">
+        <text x="0" y="10" font-size="11" font-weight="600" fill="#ffffff">Application Security</text>
+        <rect y="18" width="238" height="8" rx="4" fill="#ffffff" fill-opacity="0.3" />
+        <rect y="18" width="210" height="8" rx="4" fill="#d83995" />
       </g>
     </g>
 
-    <!-- Right Side: Live Status Badge Button -->
-    <g transform="translate(680, 52)">
-      <rect width="132" height="38" rx="19" fill="#1f6feb" fill-opacity="0.15" stroke="#388bfd" stroke-width="1.2" />
-      <circle cx="22" cy="19" r="4.5" fill="#3fb950" />
-      <text x="35" y="23" fill="#58a6ff" font-family="-apple-system, sans-serif" font-weight="600" font-size="12">LIVE PLATFORM ↗</text>
+    <!-- Center Card Pelmatech -->
+    <g transform="translate(300, 5)">
+      <rect width="250" height="290" rx="20" fill="#d83995" />
+      <g transform="translate(20, 20)">
+        <text x="0" y="16" font-family="-apple-system, sans-serif" font-weight="700" font-size="14" fill="#ffffff">System Health</text>
+      </g>
+      <g transform="translate(125, 175)">
+        <text x="0" y="-12" class="gauge-number">99</text>
+        <text x="0" y="10" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle" font-family="-apple-system, sans-serif">100% OPERATIONAL</text>
+      </g>
+    </g>
+
+    <g transform="translate(565, 20)">
+      <rect width="275" height="260" rx="16" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="1.2" />
+      <g transform="translate(18, 18)">
+        <text x="0" y="16" font-family="-apple-system, sans-serif" font-weight="700" font-size="14" fill="#ffffff">Venture Spotlight</text>
+      </g>
+      <g transform="translate(18, 70)">
+        <text x="0" y="20" font-family="-apple-system, sans-serif" font-weight="700" font-size="16" fill="#ffffff">AutoIntel Store</text>
+        <text x="0" y="45" font-family="-apple-system, sans-serif" font-size="12" fill="#ffffff" opacity="0.9">E-Commerce &amp; Spare Parts Ecosystem</text>
+      </g>
     </g>
   </g>
 </svg>

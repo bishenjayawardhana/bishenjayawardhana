@@ -1,31 +1,32 @@
 <div align="center">
 
   <!-- ==================== HERO LANDING SECTION ==================== -->
-  <a href="https://github.com/bishenjayawardhana">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/hero-banner.svg">
     <img src="./assets/hero-banner.svg" width="100%" alt="Bishen Jayawardhana — Cyber Security & Full-Stack Systems Engineer" />
-  </a>
+  </picture>
 
   <br/><br/>
 
   <!-- ==================== QUICK CONNECT DOCK ==================== -->
   <p align="center">
+    <a href="https://autointelstore.com" target="_blank">
+      <img src="https://img.shields.io/badge/AutoIntel_Store-fd91cc?style=for-the-badge&logo=googlechrome&logoColor=030816" height="30" alt="AutoIntel Store" />
+    </a>
     <a href="https://www.linkedin.com/in/bishen-jayawardhana-274a7b368" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-051336?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn" />
     </a>
     <a href="mailto:info.bishen@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-051336?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="Email" />
     </a>
     <a href="https://discord.com/users/bishelj" target="_blank">
-      <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="28" alt="Discord" />
+      <img src="https://img.shields.io/badge/Discord-051336?style=for-the-badge&logo=discord&logoColor=white" height="30" alt="Discord" />
     </a>
     <a href="https://wa.me/94719110593" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="28" alt="WhatsApp" />
+      <img src="https://img.shields.io/badge/WhatsApp-051336?style=for-the-badge&logo=whatsapp&logoColor=white" height="30" alt="WhatsApp" />
     </a>
     <a href="https://open.spotify.com/user/31aizozjdk4invcobmpavvn7qaoa" target="_blank">
-      <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=black" height="28" alt="Spotify" />
-    </a>
-    <a href="https://autointelstore.com" target="_blank">
-      <img src="https://img.shields.io/badge/AutoIntel_Store-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white" height="28" alt="AutoIntel Store" />
+      <img src="https://img.shields.io/badge/Spotify-051336?style=for-the-badge&logo=spotify&logoColor=white" height="30" alt="Spotify" />
     </a>
   </p>
 
@@ -35,10 +36,13 @@
 
 ---
 
-### ⚡ Architecture & Systems Capabilities
+### ⚡ Live Architecture & Systems Telemetry
 
 <div align="center">
-  <img src="./assets/bento-grid.svg" width="100%" alt="Architecture, Security, and Projects Bento Grid" />
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/bento-grid.svg">
+    <img src="./assets/bento-grid.svg" width="100%" alt="Security Posture, Alerts by Scan Type, and Platform Telemetry" />
+  </picture>
 </div>
 
 <br/>
@@ -54,7 +58,7 @@
 </p>
 
 <details>
-<summary><b>Detailed Arsenal Breakdown</b></summary>
+<summary><b>Detailed Arsenal & Capabilities Breakdown</b></summary>
 <br/>
 
 | Domain | Core Competencies & Tools |
@@ -73,7 +77,7 @@
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img height="175" src="https://github-readme-stats.vercel.app/api?username=bishenjayawardhana&show_icons=true&theme=github_dark&rank_icon=percentile&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Bishen's GitHub Stats" />
+    <img height="175" src="https://github-readme-stats.vercel.app/api?username=bishenjayawardhana&show_icons=true&theme=github_dark&rank_icon=percentile&hide_border=false&border_color=1a3358&bg_color=020817&title_color=ffffff&text_color=93c5fd&icon_color=fd91cc" alt="Bishen's GitHub Stats" />
   </a>
   <a href="https://github.com/bishenjayawardhana">
     <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/top-langs.svg" alt="Top Languages" />
