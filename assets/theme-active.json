@@ -4,8 +4,6 @@
   "accentSecondary": "#3b82f6",
   "snakeColors": {
     "dark": "#061533,#0a295c,#0e3d8c,#1a5bc7,#fd91cc",
-    "snakeDark": "#fd91cc",
-    "light": "#ebedf0,#9be9a8,#40c463,#30a14e,#ff4794",
-    "snakeLight": "#ff4794"
+    "snakeDark": "#fd91cc"
   }
 }

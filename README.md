@@ -1,14 +1,13 @@
 <div align="center">
 
-  <!-- ==================== HERO LANDING SECTION ==================== -->
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/hero-banner.svg">
-    <img src="./assets/hero-banner.svg" width="100%" alt="Bishen Jayawardhana — Cyber Security & Full-Stack Systems Engineer" />
-  </picture>
+  <!-- ==================== LUXURY WEBSITE HERO ==================== -->
+  <a href="https://github.com/bishenjayawardhana">
+    <img src="./assets/active-hero.jpg" width="100%" alt="Bishen Jayawardhana — Cyber Security & Full-Stack Systems Engineer" />
+  </a>
 
   <br/><br/>
 
-  <!-- ==================== QUICK CONNECT DOCK ==================== -->
+  <!-- ==================== QUICK ACTION DOCK ==================== -->
   <p align="center">
     <a href="https://autointelstore.com" target="_blank">
       <img src="https://img.shields.io/badge/AutoIntel_Store-fd91cc?style=for-the-badge&logo=googlechrome&logoColor=030816" height="30" alt="AutoIntel Store" />
@@ -32,20 +31,21 @@
 
   <br/>
 
+  <!-- ==================== THEME PREVIEW DRAWER ==================== -->
+  <details>
+    <summary><b>🎨 Explore All 3 Atmospheric Themes (SOLIX · FLUXEDIT · PELMATECH)</b></summary>
+    <br/>
+    <p align="center">
+      <b>1. SOLIX — Deep Royal Blue · Stardust Constellation · Bubblegum Pink</b><br/>
+      <img src="./assets/solix-hero.jpg" width="100%" alt="SOLIX Theme" /><br/><br/>
+      <b>2. FLUXEDIT — Midnight Black · Auroral God Rays · Cantaloupe Orange Horizon</b><br/>
+      <img src="./assets/fluxedit-hero.jpg" width="100%" alt="FLUXEDIT Theme" /><br/><br/>
+      <b>3. PELMATECH — Sky Blue · Fluted Glass Motion Texture · Radiant Hot Pink</b><br/>
+      <img src="./assets/pelmatech-hero.jpg" width="100%" alt="PELMATECH Theme" />
+    </p>
+  </details>
+
 </div>
-
----
-
-### ⚡ Live Architecture & Systems Telemetry
-
-<div align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/bento-grid.svg">
-    <img src="./assets/bento-grid.svg" width="100%" alt="Security Posture, Alerts by Scan Type, and Platform Telemetry" />
-  </picture>
-</div>
-
-<br/>
 
 ---
 
@@ -77,16 +77,10 @@
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img height="175" src="https://github-readme-stats.vercel.app/api?username=bishenjayawardhana&show_icons=true&theme=github_dark&rank_icon=percentile&hide_border=false&border_color=1a3358&bg_color=020817&title_color=ffffff&text_color=93c5fd&icon_color=fd91cc" alt="Bishen's GitHub Stats" />
-  </a>
-  <a href="https://github.com/bishenjayawardhana">
     <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/top-langs.svg" alt="Top Languages" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/streak.svg" alt="GitHub Streak" />
+    <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/streak.svg" alt="GitHub Streak" />
   </a>
 </p>
 
