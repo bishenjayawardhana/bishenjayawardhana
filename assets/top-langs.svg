@@ -1,46 +1,65 @@
 <svg width="300" height="175" viewBox="0 0 300 175" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="langs-glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c204d" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#040d24" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="langs-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#1d4ed8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#fd91cc" stop-opacity="0.65" />
+    </linearGradient>
+    <filter id="langs-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
   <style>
-    .header { font: 700 14px -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; fill: #ffffff; letter-spacing: 0.4px; }
-    .lang-name { font: 500 11px -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; fill: #93c5fd; }
+    .header { font: 700 13.5px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; fill: #ffffff; letter-spacing: -0.2px; }
+    .lang-name { font: 600 11px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif; fill: #93c5fd; }
   </style>
-  <rect x="0.5" y="0.5" rx="8" height="174" stroke="#1a3358" stroke-width="1.2" width="299" fill="#020817" />
-  <g transform="translate(25, 35)">
+  <rect x="0.5" y="0.5" rx="14" height="174" stroke="url(#langs-border)" stroke-width="1.2" width="299" fill="url(#langs-glass)" filter="url(#langs-shadow)" />
+  
+  <!-- Subtle Stardust -->
+  <circle cx="260" cy="25" r="1.2" fill="#fd91cc" opacity="0.6" />
+  <circle cx="40" cy="150" r="1" fill="#38bdf8" opacity="0.5" />
+
+  <g transform="translate(22, 30)">
     <text x="0" y="0" class="header">Most Used Languages</text>
   </g>
-  <g transform="translate(25, 55)">
+  <g transform="translate(22, 48)">
     <mask id="rect-mask">
-      <rect x="0" y="0" width="250" height="8" fill="white" rx="4"/>
+      <rect x="0" y="0" width="256" height="8" fill="white" rx="4"/>
     </mask>
-        <rect mask="url(#rect-mask)" x="0.00" y="0" width="157.20" height="8" fill="#3178c6" />
-        <rect mask="url(#rect-mask)" x="157.20" y="0" width="43.77" height="8" fill="#e34c26" />
-        <rect mask="url(#rect-mask)" x="200.97" y="0" width="21.73" height="8" fill="#4F5D95" />
-        <rect mask="url(#rect-mask)" x="222.70" y="0" width="20.76" height="8" fill="#f1e05a" />
-        <rect mask="url(#rect-mask)" x="243.46" y="0" width="5.11" height="8" fill="#563d7c" />
-        <rect mask="url(#rect-mask)" x="248.57" y="0" width="0.63" height="8" fill="#89e051" />
-    <g transform="translate(0, 25)">
+    <rect mask="url(#rect-mask)" x="0.00" y="0" width="161.02" height="8" fill="#38bdf8" />
+    <rect mask="url(#rect-mask)" x="161.02" y="0" width="44.8" height="8" fill="#fd91cc" />
+    <rect mask="url(#rect-mask)" x="205.82" y="0" width="22.27" height="8" fill="#818cf8" />
+    <rect mask="url(#rect-mask)" x="228.09" y="0" width="21.24" height="8" fill="#facc15" />
+    <rect mask="url(#rect-mask)" x="249.33" y="0" width="5.24" height="8" fill="#c084fc" />
+    <rect mask="url(#rect-mask)" x="254.57" y="0" width="1.43" height="8" fill="#4ade80" />
+    <g transform="translate(0, 24)">
       <g transform="translate(0, 0)">
-        <circle cx="5" cy="6" r="5" fill="#3178c6" />
-        <text x="15" y="10" class="lang-name">TypeScript 62.9%</text>
+        <circle cx="5" cy="6" r="4.5" fill="#38bdf8" />
+        <text x="16" y="10" class="lang-name">TypeScript 62.9%</text>
       </g>
       <g transform="translate(0, 25)">
-        <circle cx="5" cy="6" r="5" fill="#e34c26" />
-        <text x="15" y="10" class="lang-name">HTML 17.5%</text>
+        <circle cx="5" cy="6" r="4.5" fill="#fd91cc" />
+        <text x="16" y="10" class="lang-name">HTML 17.5%</text>
       </g>
       <g transform="translate(0, 50)">
-        <circle cx="5" cy="6" r="5" fill="#4F5D95" />
-        <text x="15" y="10" class="lang-name">PHP 8.7%</text>
+        <circle cx="5" cy="6" r="4.5" fill="#818cf8" />
+        <text x="16" y="10" class="lang-name">PHP 8.7%</text>
       </g>
-      <g transform="translate(130, 0)">
-        <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-        <text x="15" y="10" class="lang-name">JavaScript 8.3%</text>
+      <g transform="translate(132, 0)">
+        <circle cx="5" cy="6" r="4.5" fill="#facc15" />
+        <text x="16" y="10" class="lang-name">JavaScript 8.3%</text>
       </g>
-      <g transform="translate(130, 25)">
-        <circle cx="5" cy="6" r="5" fill="#563d7c" />
-        <text x="15" y="10" class="lang-name">CSS 2.0%</text>
+      <g transform="translate(132, 25)">
+        <circle cx="5" cy="6" r="4.5" fill="#c084fc" />
+        <text x="16" y="10" class="lang-name">CSS 2.0%</text>
       </g>
-      <g transform="translate(130, 50)">
-        <circle cx="5" cy="6" r="5" fill="#89e051" />
-        <text x="15" y="10" class="lang-name">Shell 0.3%</text>
+      <g transform="translate(132, 50)">
+        <circle cx="5" cy="6" r="4.5" fill="#4ade80" />
+        <text x="16" y="10" class="lang-name">Shell 0.3%</text>
       </g>
     </g>
   </g>
