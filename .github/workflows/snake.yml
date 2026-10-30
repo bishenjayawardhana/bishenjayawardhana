@@ -30,16 +30,20 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#1f883d&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#39d353&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # cleans timeline bar and trims margins to match native contribution graph
+      - name: post-process snake svg
+        run: node scripts/postprocess-snake.js
 
       # generates streak stats with full access to private contributions
       - name: generate streak stats svg
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=false&date_format=M%20j%5B%2C%20Y%5D
+          options: user=${{ github.repository_owner }}&theme=github-dark&hide_border=false&date_format=M%20j%5B%2C%20Y%5D&border=30363d&stroke=30363d&background=0d1117
           path: dist/streak.svg
           token: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
 

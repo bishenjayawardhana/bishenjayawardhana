@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="850" height="280" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="aurora" cx="50%" cy="0%" r="90%" fx="50%" fy="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.32" />
+      <stop offset="45%" stop-color="#0d419d" stop-opacity="0.15" />
+      <stop offset="85%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cyber-glow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#388bfd" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="text-shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f0f6fc" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+    <linearGradient id="cyan-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#00f5d4" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="micro-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .status-dot {
+      transform-origin: 43px 44px;
+      animation: pulse-dot 2.5s ease-in-out infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.8px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 0.6px;
+    }
+    .subhead-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+    }
+    .tagline-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 400;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .chip-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 500;
+      font-size: 11.5px;
+    }
+  </style>
+
+  <!-- Container Box with Rounded Glass Aesthetic -->
+  <rect x="1" y="1" width="848" height="278" rx="16" fill="#090d16" stroke="url(#card-border)" stroke-width="1.2" />
+
+  <!-- Atmospheric Backgrounds -->
+  <rect x="2" y="2" width="846" height="276" rx="15" fill="url(#aurora)" />
+  <rect x="2" y="2" width="846" height="276" rx="15" fill="url(#cyber-glow)" />
+  <rect x="2" y="2" width="846" height="276" rx="15" fill="url(#micro-grid)" />
+
+  <!-- Top Status Pill -->
+  <g transform="translate(32, 28)">
+    <rect x="0" y="0" width="310" height="28" rx="14" fill="#161b22" fill-opacity="0.8" stroke="#30363d" stroke-width="1" />
+    <circle class="status-dot" cx="14" cy="14" r="4.5" fill="#3fb950" />
+    <circle cx="14" cy="14" r="7" fill="#3fb950" fill-opacity="0.25" />
+    <text x="27" y="18" fill="#8b949e" class="badge-text">STATUS: <tspan fill="#3fb950">SECURING &amp; ENGINEERING</tspan></text>
+    <text x="210" y="18" fill="#484f58" class="badge-text">|</text>
+    <text x="222" y="18" fill="#58a6ff" class="badge-text">VU AUSTRALIA</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="32" y="105" fill="url(#text-shine)" class="title-text">Bishen Jayawardhana</text>
+
+  <!-- Sub-headline -->
+  <text x="32" y="136" fill="url(#cyan-blue)" class="subhead-text">
+    Cyber Security Undergraduate <tspan fill="#484f58">·</tspan> NSBM Green University × Victoria University
+    <tspan fill="#484f58">·</tspan> Full-Stack Engineer
+  </text>
+
+  <!-- High-End Pitch / Bio -->
+  <text x="32" y="172" fill="#c9d1d9" class="tagline-text">
+    Architecting resilient software systems with a security-first engineering mindset.
+  </text>
+  <text x="32" y="194" fill="#8b949e" class="tagline-text">
+    Specialized in vulnerability analysis, network defense, scalable RESTful APIs, and modern web platforms.
+  </text>
+
+  <!-- Bottom Interactive Tags / Capabilities -->
+  <g transform="translate(32, 222)">
+    <!-- Pill 1: AutoIntel -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="168" height="28" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3.5" fill="#58a6ff" />
+      <text x="25" y="18" fill="#f0f6fc" class="chip-text">Creator, AutoIntel Store</text>
+    </g>
+
+    <!-- Pill 2: AppSec & OWASP -->
+    <g transform="translate(178, 0)">
+      <rect x="0" y="0" width="168" height="28" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3.5" fill="#00f5d4" />
+      <text x="25" y="18" fill="#f0f6fc" class="chip-text">OWASP &amp; Threat Defense</text>
+    </g>
+
+    <!-- Pill 3: Full-Stack Systems -->
+    <g transform="translate(356, 0)">
+      <rect x="0" y="0" width="164" height="28" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3.5" fill="#bc8cff" />
+      <text x="25" y="18" fill="#f0f6fc" class="chip-text">React · Next.js · Node.js</text>
+    </g>
+
+    <!-- Pill 4: CTF & Research -->
+    <g transform="translate(530, 0)">
+      <rect x="0" y="0" width="155" height="28" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3.5" fill="#f0883e" />
+      <text x="25" y="18" fill="#f0f6fc" class="chip-text">CTF &amp; Systems Research</text>
+    </g>
+  </g>
+</svg>

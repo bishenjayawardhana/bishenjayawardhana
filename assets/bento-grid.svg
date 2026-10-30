@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="850" height="360" fill="none">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradient -->
+    <linearGradient id="border-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="border-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="border-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8957e5" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Accent glows -->
+    <radialGradient id="cyan-glow" cx="10%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="blue-glow" cx="90%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="purple-glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .card-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+    }
+    .card-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 600;
+      font-size: 10.5px;
+      letter-spacing: 0.8px;
+    }
+    .body-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 400;
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+    .tag-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+    }
+  </style>
+
+  <!-- ==================== CARD 1: CYBER SECURITY ==================== -->
+  <g transform="translate(7, 7)">
+    <rect width="410" height="195" rx="14" fill="url(#card-grad)" stroke="url(#border-cyan)" stroke-width="1.2" />
+    <rect width="410" height="195" rx="14" fill="url(#cyan-glow)" />
+
+    <!-- Header Icon + Title -->
+    <g transform="translate(20, 20)">
+      <!-- Shield Icon Badge -->
+      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <path d="M16 8 L24 11 V17 C24 21.5 16 25 16 25 C16 25 8 21.5 8 17 V11 Z" fill="none" stroke="#00f5d4" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M13 16 L15 18 L19 14" fill="none" stroke="#00f5d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+
+      <text x="42" y="14" fill="#00f5d4" class="card-sub">OFFENSIVE &amp; DEFENSIVE SECURITY</text>
+      <text x="42" y="30" fill="#ffffff" class="card-title">Systems &amp; Network Defense</text>
+    </g>
+
+    <text x="20" y="80" fill="#8b949e" class="body-text">
+      Identifying attack vectors, performing ethical audits, and
+    </text>
+    <text x="20" y="98" fill="#8b949e" class="body-text">
+      engineering hardened, zero-trust infrastructure.
+    </text>
+
+    <!-- Security Tech Pills -->
+    <g transform="translate(20, 118)">
+      <g transform="translate(0, 0)">
+        <rect width="115" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">OWASP Top 10</text>
+      </g>
+      <g transform="translate(122, 0)">
+        <rect width="125" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Network Defense</text>
+      </g>
+      <g transform="translate(254, 0)">
+        <rect width="116" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#00f5d4" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Penetration Test</text>
+      </g>
+    </g>
+
+    <g transform="translate(20, 149)">
+      <g transform="translate(0, 0)">
+        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">Wireshark</text>
+      </g>
+      <g transform="translate(97, 0)">
+        <rect width="70" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">Nmap</text>
+      </g>
+      <g transform="translate(174, 0)">
+        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">Kali Linux</text>
+      </g>
+      <g transform="translate(271, 0)">
+        <rect width="99" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">Bash / Python</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: FULL STACK ==================== -->
+  <g transform="translate(433, 7)">
+    <rect width="410" height="195" rx="14" fill="url(#card-grad)" stroke="url(#border-blue)" stroke-width="1.2" />
+    <rect width="410" height="195" rx="14" fill="url(#blue-glow)" />
+
+    <!-- Header Icon + Title -->
+    <g transform="translate(20, 20)">
+      <!-- Code Icon Badge -->
+      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <path d="M13 12 L9 16 L13 20" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M19 12 L23 16 L19 20" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M17 10 L15 22" fill="none" stroke="#58a6ff" stroke-width="1.4" stroke-linecap="round" />
+
+      <text x="42" y="14" fill="#58a6ff" class="card-sub">SCALABLE ARCHITECTURE</text>
+      <text x="42" y="30" fill="#ffffff" class="card-title">Full-Stack Engineering</text>
+    </g>
+
+    <text x="20" y="80" fill="#8b949e" class="body-text">
+      Constructing production web platforms with typed APIs,
+    </text>
+    <text x="20" y="98" fill="#8b949e" class="body-text">
+      relational schemas, and fluid, responsive interfaces.
+    </text>
+
+    <!-- Engineering Tech Pills -->
+    <g transform="translate(20, 118)">
+      <g transform="translate(0, 0)">
+        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">TypeScript</text>
+      </g>
+      <g transform="translate(97, 0)">
+        <rect width="85" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Next.js 14</text>
+      </g>
+      <g transform="translate(189, 0)">
+        <rect width="78" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">Node.js</text>
+      </g>
+      <g transform="translate(274, 0)">
+        <rect width="96" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <circle cx="10" cy="12" r="3" fill="#58a6ff" />
+        <text x="18" y="16" fill="#c9d1d9" class="tag-text">RESTful APIs</text>
+      </g>
+    </g>
+
+    <g transform="translate(20, 149)">
+      <g transform="translate(0, 0)">
+        <rect width="75" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">React.js</text>
+      </g>
+      <g transform="translate(82, 0)">
+        <rect width="75" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">MySQL</text>
+      </g>
+      <g transform="translate(164, 0)">
+        <rect width="90" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">PostgreSQL</text>
+      </g>
+      <g transform="translate(261, 0)">
+        <rect width="109" height="24" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <text x="10" y="16" fill="#8b949e" class="tag-text">Docker &amp; CI/CD</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: FLAGSHIP VENTURE (WIDE) ==================== -->
+  <g transform="translate(7, 212)">
+    <rect width="836" height="140" rx="14" fill="url(#card-grad)" stroke="url(#border-purple)" stroke-width="1.2" />
+    <rect width="836" height="140" rx="14" fill="url(#purple-glow)" />
+
+    <!-- Left side: Project details -->
+    <g transform="translate(24, 22)">
+      <!-- Rocket / Spark Icon -->
+      <rect width="32" height="32" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="16" cy="16" r="6" fill="#bc8cff" fill-opacity="0.25" />
+      <path d="M12 20 L14 14 L20 12 L16 18 Z" fill="#bc8cff" />
+
+      <text x="44" y="14" fill="#bc8cff" class="card-sub">FEATURED FLAGSHIP VENTURE</text>
+      <text x="44" y="30" fill="#ffffff" class="card-title">AutoIntel Store — Automotive Marketplace Ecosystem</text>
+
+      <text x="0" y="62" fill="#8b949e" class="body-text">
+        Full-lifecycle automotive spare parts catalog, inventory management system, and customer portal.
+      </text>
+      <text x="0" y="80" fill="#8b949e" class="body-text">
+        Engineered with TypeScript, React, Node.js, and relational schema optimization for high availability.
+      </text>
+
+      <!-- Bottom Tech Pills -->
+      <g transform="translate(0, 94)">
+        <g transform="translate(0, 0)">
+          <rect width="90" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">TypeScript</text>
+        </g>
+        <g transform="translate(96, 0)">
+          <rect width="70" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">React</text>
+        </g>
+        <g transform="translate(172, 0)">
+          <rect width="75" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">Node.js</text>
+        </g>
+        <g transform="translate(253, 0)">
+          <rect width="70" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">MySQL</text>
+        </g>
+        <g transform="translate(329, 0)">
+          <rect width="90" height="20" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8" />
+          <text x="8" y="14" fill="#f0f6fc" font-size="10" font-family="-apple-system, sans-serif">Tailwind CSS</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Side: Live Status Badge Button -->
+    <g transform="translate(680, 52)">
+      <rect width="132" height="38" rx="19" fill="#1f6feb" fill-opacity="0.15" stroke="#388bfd" stroke-width="1.2" />
+      <circle cx="22" cy="19" r="4.5" fill="#3fb950" />
+      <text x="35" y="23" fill="#58a6ff" font-family="-apple-system, sans-serif" font-weight="600" font-size="12">LIVE PLATFORM ↗</text>
+    </g>
+  </g>
+</svg>

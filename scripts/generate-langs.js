@@ -86,10 +86,10 @@ async function generate() {
 
   const svg = `<svg width="300" height="175" viewBox="0 0 300 175" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
   <style>
-    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
-    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .header { font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .lang-name { font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" height="174" stroke="#e4e2e2" width="299" fill="#1a1b27" />
+  <rect x="0.5" y="0.5" rx="6" height="174" stroke="#30363d" width="299" fill="#0d1117" />
   <g transform="translate(25, 35)">
     <text x="0" y="0" class="header">Most Used Languages</text>
   </g>
