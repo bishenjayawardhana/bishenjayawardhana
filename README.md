@@ -51,25 +51,17 @@
 
 ### Technical Stack & Systems Tooling
 
+<div align="center">
+  <img src="./assets/tech-arsenal.svg" width="100%" alt="Technical Capabilities & Engineering Arsenal" />
+</div>
+
+<br/>
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=linux,bash,py,ts,js,react,nextjs,nodejs,tailwind,mysql,postgres,docker,git,postman,figma&perline=8&theme=dark" alt="Technical Skills" />
   </a>
 </p>
-
-<details>
-<summary><b>Detailed Arsenal & Capabilities Breakdown</b></summary>
-<br/>
-
-| Domain | Core Competencies & Tools |
-| :--- | :--- |
-| **Security & Systems Defense** | Linux (Kali / Ubuntu), Bash Scripting, Python, Wireshark, Nmap, Network Defense, OWASP Top 10 |
-| **Frontend Architecture** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML5 / Semantic UI |
-| **Backend & Scalable APIs** | Node.js, Express, RESTful APIs, Secure Authentication (JWT, OAuth 2.0, RBAC) |
-| **Database & Persistence** | MySQL, PostgreSQL, Relational Schema Design & Query Optimization |
-| **DevOps & Tooling** | Docker, Git, GitHub Actions (CI/CD Workflows), Postman, Linux CLI |
-
-</details>
 
 ---
 

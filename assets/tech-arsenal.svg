@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="850" height="350" fill="none">
+  <defs>
+    <!-- Background Royal Aura -->
+    <radialGradient id="arsenal-bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0a2561" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#041233" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#020817" />
+    </radialGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="quad-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071b42" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#030c24" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Outer Border -->
+    <linearGradient id="outer-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#fd91cc" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .section-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+      fill: #ffffff;
+    }
+    .section-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 0.8px;
+      fill: #93c5fd;
+    }
+    .quad-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 13.5px;
+      fill: #ffffff;
+    }
+    .quad-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 9.5px;
+      letter-spacing: 0.8px;
+    }
+    .pill-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 10.5px;
+      fill: #e2e8f0;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="848" height="348" rx="18" fill="#020817" stroke="url(#outer-border)" stroke-width="1.2" />
+  <rect x="2" y="2" width="846" height="346" rx="17" fill="url(#arsenal-bg)" />
+
+  <!-- Subtle Stardust particles -->
+  <g opacity="0.45">
+    <circle cx="120" cy="50" r="1" fill="#ffffff" />
+    <circle cx="280" cy="35" r="1.2" fill="#fd91cc" />
+    <circle cx="430" cy="45" r="1" fill="#ffffff" />
+    <circle cx="620" cy="40" r="1.3" fill="#ffffff" />
+    <circle cx="750" cy="60" r="1" fill="#fd91cc" />
+    <circle cx="340" cy="180" r="1.2" fill="#ffffff" />
+    <circle cx="520" cy="200" r="1" fill="#ffffff" />
+  </g>
+
+  <!-- Section Header -->
+  <g transform="translate(26, 26)">
+    <text x="0" y="0" class="section-sub">TECHNICAL COMPETENCIES &amp; CAPABILITIES</text>
+    <text x="0" y="20" class="section-title">Engineering Arsenal &amp; Tooling</text>
+  </g>
+
+  <!-- ==================== QUADRANT 1: CYBER SECURITY ==================== -->
+  <g transform="translate(20, 68)">
+    <rect width="395" height="125" rx="12" fill="url(#quad-card)" stroke="#1e3a8a" stroke-width="1" />
+    
+    <!-- Header -->
+    <g transform="translate(16, 14)">
+      <rect width="22" height="22" rx="6" fill="#1e293b" />
+      <path d="M11 5 L16 7.5 V12 C16 15 11 17 11 17 C11 17 6 15 6 12 V7.5 Z" fill="none" stroke="#fd91cc" stroke-width="1.4" stroke-linejoin="round" />
+      <text x="30" y="10" fill="#fd91cc" class="quad-sub">SYSTEMS DEFENSE</text>
+      <text x="30" y="24" class="quad-title">Offensive &amp; Defensive Security</text>
+    </g>
+
+    <!-- Pills Row 1 -->
+    <g transform="translate(16, 56)">
+      <g transform="translate(0, 0)">
+        <rect width="105" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#fd91cc" />
+        <text x="16" y="15" class="pill-label">OWASP Top 10</text>
+      </g>
+      <g transform="translate(112, 0)">
+        <rect width="115" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#fd91cc" />
+        <text x="16" y="15" class="pill-label">Network Defense</text>
+      </g>
+      <g transform="translate(234, 0)">
+        <rect width="125" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#fd91cc" />
+        <text x="16" y="15" class="pill-label">Penetration Testing</text>
+      </g>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(16, 86)">
+      <g transform="translate(0, 0)">
+        <rect width="80" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Wireshark</text>
+      </g>
+      <g transform="translate(86, 0)">
+        <rect width="60" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Nmap</text>
+      </g>
+      <g transform="translate(152, 0)">
+        <rect width="82" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Kali Linux</text>
+      </g>
+      <g transform="translate(240, 0)">
+        <rect width="119" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Python / Bash</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 2: FRONTEND ==================== -->
+  <g transform="translate(435, 68)">
+    <rect width="395" height="125" rx="12" fill="url(#quad-card)" stroke="#1e3a8a" stroke-width="1" />
+
+    <g transform="translate(16, 14)">
+      <rect width="22" height="22" rx="6" fill="#1e293b" />
+      <path d="M8 7 L5 11 L8 15 M14 7 L17 11 L14 15" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" />
+      <text x="30" y="10" fill="#38bdf8" class="quad-sub">MODERN CLIENT SYSTEMS</text>
+      <text x="30" y="24" class="quad-title">Frontend Architecture</text>
+    </g>
+
+    <g transform="translate(16, 56)">
+      <g transform="translate(0, 0)">
+        <rect width="80" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#38bdf8" />
+        <text x="16" y="15" class="pill-label">React 18</text>
+      </g>
+      <g transform="translate(86, 0)">
+        <rect width="85" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#38bdf8" />
+        <text x="16" y="15" class="pill-label">Next.js 14</text>
+      </g>
+      <g transform="translate(178, 0)">
+        <rect width="88" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#38bdf8" />
+        <text x="16" y="15" class="pill-label">TypeScript</text>
+      </g>
+      <g transform="translate(272, 0)">
+        <rect width="90" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#38bdf8" />
+        <text x="16" y="15" class="pill-label">JavaScript</text>
+      </g>
+    </g>
+
+    <g transform="translate(16, 86)">
+      <g transform="translate(0, 0)">
+        <rect width="98" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Tailwind CSS</text>
+      </g>
+      <g transform="translate(104, 0)">
+        <rect width="105" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">HTML5 / Web APIs</text>
+      </g>
+      <g transform="translate(215, 0)">
+        <rect width="147" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Responsive UI / UX</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 3: BACKEND ==================== -->
+  <g transform="translate(20, 204)">
+    <rect width="395" height="125" rx="12" fill="url(#quad-card)" stroke="#1e3a8a" stroke-width="1" />
+
+    <g transform="translate(16, 14)">
+      <rect width="22" height="22" rx="6" fill="#1e293b" />
+      <rect x="6" y="7" width="10" height="8" rx="2" fill="none" stroke="#818cf8" stroke-width="1.4" />
+      <line x1="6" y1="11" x2="16" y2="11" stroke="#818cf8" stroke-width="1" />
+      <text x="30" y="10" fill="#818cf8" class="quad-sub">RESILIENT BACKENDS</text>
+      <text x="30" y="24" class="quad-title">Backend Architecture &amp; APIs</text>
+    </g>
+
+    <g transform="translate(16, 56)">
+      <g transform="translate(0, 0)">
+        <rect width="75" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#818cf8" />
+        <text x="16" y="15" class="pill-label">Node.js</text>
+      </g>
+      <g transform="translate(81, 0)">
+        <rect width="90" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#818cf8" />
+        <text x="16" y="15" class="pill-label">Express.js</text>
+      </g>
+      <g transform="translate(177, 0)">
+        <rect width="98" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#818cf8" />
+        <text x="16" y="15" class="pill-label">RESTful APIs</text>
+      </g>
+      <g transform="translate(281, 0)">
+        <rect width="80" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#818cf8" />
+        <text x="16" y="15" class="pill-label">JWT Auth</text>
+      </g>
+    </g>
+
+    <g transform="translate(16, 86)">
+      <g transform="translate(0, 0)">
+        <rect width="85" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">OAuth 2.0</text>
+      </g>
+      <g transform="translate(91, 0)">
+        <rect width="70" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">RBAC</text>
+      </g>
+      <g transform="translate(167, 0)">
+        <rect width="110" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Data Validation</text>
+      </g>
+      <g transform="translate(283, 0)">
+        <rect width="78" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Microservices</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== QUADRANT 4: DEVOPS & DB ==================== -->
+  <g transform="translate(435, 204)">
+    <rect width="395" height="125" rx="12" fill="url(#quad-card)" stroke="#1e3a8a" stroke-width="1" />
+
+    <g transform="translate(16, 14)">
+      <rect width="22" height="22" rx="6" fill="#1e293b" />
+      <ellipse cx="11" cy="9" rx="5" ry="2" fill="none" stroke="#34d399" stroke-width="1.3" />
+      <path d="M6 9 V13 C6 14.1 8.2 15 11 15 C13.8 15 16 14.1 16 13 V9" fill="none" stroke="#34d399" stroke-width="1.3" />
+      <text x="30" y="10" fill="#34d399" class="quad-sub">PERSISTENCE &amp; DEVOPS</text>
+      <text x="30" y="24" class="quad-title">Databases &amp; Cloud Infrastructure</text>
+    </g>
+
+    <g transform="translate(16, 56)">
+      <g transform="translate(0, 0)">
+        <rect width="70" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#34d399" />
+        <text x="16" y="15" class="pill-label">MySQL</text>
+      </g>
+      <g transform="translate(76, 0)">
+        <rect width="90" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#34d399" />
+        <text x="16" y="15" class="pill-label">PostgreSQL</text>
+      </g>
+      <g transform="translate(172, 0)">
+        <rect width="70" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#34d399" />
+        <text x="16" y="15" class="pill-label">Docker</text>
+      </g>
+      <g transform="translate(248, 0)">
+        <rect width="55" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#34d399" />
+        <text x="16" y="15" class="pill-label">Git</text>
+      </g>
+      <g transform="translate(309, 0)">
+        <rect width="58" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <circle cx="9" cy="11" r="2.5" fill="#34d399" />
+        <text x="16" y="15" class="pill-label">CI/CD</text>
+      </g>
+    </g>
+
+    <g transform="translate(16, 86)">
+      <g transform="translate(0, 0)">
+        <rect width="112" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">GitHub Actions</text>
+      </g>
+      <g transform="translate(118, 0)">
+        <rect width="75" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Postman</text>
+      </g>
+      <g transform="translate(199, 0)">
+        <rect width="78" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Linux CLI</text>
+      </g>
+      <g transform="translate(283, 0)">
+        <rect width="78" height="22" rx="5" fill="#030c24" stroke="#1d4ed8" stroke-width="0.8" />
+        <text x="10" y="15" class="pill-label" fill="#93c5fd">Relational</text>
+      </g>
+    </g>
+  </g>
+</svg>
