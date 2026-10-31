@@ -1,0 +1,10 @@
+{
+  "activeTheme": "cloud-architecture",
+  "themeName": "Digital Platform Architecture",
+  "accent": "#d83995",
+  "accentSecondary": "#0593c8",
+  "snakeColors": {
+    "dark": "#061d36,#093c6b,#0572a6,#0593c8,#d83995",
+    "snakeDark": "#d83995"
+  }
+}
