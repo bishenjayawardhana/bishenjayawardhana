@@ -60,7 +60,7 @@
       <text x="0" y="78" class="stat-date">Dec 22, 2023 - Present</text>
     </g>
 
-    <!-- Center Ring & Flame: Current Streak -->
+    <!-- Center Ring and Flame: Current Streak -->
     <g transform="translate(247.5, 48)">
       <circle cx="0" cy="22" r="38" fill="none" stroke="#0e2a6b" stroke-width="4.5" stroke-opacity="0.8" />
       <circle class="ring-active" cx="0" cy="22" r="38" fill="none" stroke="#fd91cc" stroke-width="5" stroke-dasharray="238" stroke-dashoffset="180" stroke-linecap="round" transform="rotate(-90 0 22)" />

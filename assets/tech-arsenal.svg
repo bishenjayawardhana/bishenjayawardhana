@@ -34,7 +34,7 @@
   </defs>
 
   <style>
-    /* Interactive Card Float & Hover Animations */
+    /* Interactive Card Float and Hover Animations */
     @keyframes subtle-float-1 {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-4px); }
@@ -263,7 +263,7 @@
     </g>
   </g>
 
-  <!-- ==================== QUADRANT 4: DEVOPS & DATABASES ==================== -->
+  <!-- ==================== QUADRANT 4: DEVOPS and DATABASES ==================== -->
   <g class="quad-interactive-1" transform="translate(435, 205)" filter="url(#card-shadow)">
     <rect width="395" height="125" rx="14" fill="url(#quad-glass)" stroke="url(#quad-border)" stroke-width="1.2" />
 

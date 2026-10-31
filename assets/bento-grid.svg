@@ -41,7 +41,7 @@
       <stop offset="100%" stop-color="#0d2e7a" stop-opacity="0.5" />
     </linearGradient>
 
-    <!-- Drop Shadows & Glow Filters -->
+    <!-- Drop Shadows and Glow Filters -->
     <filter id="pink-shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#ff3385" flood-opacity="0.55" />
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#ff88c2" flood-opacity="0.4" />
@@ -55,7 +55,7 @@
   <style>
     /* ==================== INTERACTIVE MOTION ENGINE ==================== */
     
-    /* 1. Center Card Floating & Breathing Glow */
+    /* 1. Center Card Floating and Breathing Glow */
     @keyframes card-float {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-7px); }
@@ -219,7 +219,7 @@
       </g>
     </g>
 
-    <!-- Row 4: Linux & Systems Hardening -->
+    <!-- Row 4: Linux and Systems Hardening -->
     <g transform="translate(18, 208)">
       <text x="0" y="10" class="metric-sub">Linux &amp; Systems Defense</text>
       <text x="236" y="10" class="metric-sub" text-anchor="end" font-weight="700" fill="#38bdf8">91%</text>
