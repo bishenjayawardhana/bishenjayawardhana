@@ -95,7 +95,7 @@ mindset: "Don't just write code — understand how it works under the hood and h
 
 <p align="center">
   <a href="https://github.com/bishenjayawardhana">
-    <img height="175" src="https://github-readme-stats.vercel.app/api?username=bishenjayawardhana&show_icons=true&theme=tokyonight&rank_icon=percentile&hide_border=false" alt="Bishen's GitHub Stats" />
+    <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/stats.svg" alt="Bishen's GitHub Stats" />
   </a>
   <a href="https://github.com/bishenjayawardhana">
     <img height="175" src="https://raw.githubusercontent.com/bishenjayawardhana/bishenjayawardhana/output/top-langs.svg" alt="Top Languages" />
