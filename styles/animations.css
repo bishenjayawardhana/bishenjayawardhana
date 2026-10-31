@@ -1,0 +1,70 @@
+/* ==========================================================================
+   CSS KEYFRAME ANIMATIONS & LIVING MOTION PHYSICS
+   ========================================================================== */
+
+/* Cursor Spotlight Floating Ambient Sweep */
+@keyframes ambient-drift {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.05); }
+  66% { transform: translate(-25px, 25px) scale(0.96); }
+}
+
+.spotlight-ambient-drift {
+  animation: ambient-drift 12s ease-in-out infinite;
+}
+
+/* Stardust Twinkling */
+@keyframes twinkle-dust {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.9; }
+}
+
+.stardust-twinkle-fast {
+  animation: twinkle-dust 3.5s ease-in-out infinite;
+}
+
+.stardust-twinkle-slow {
+  animation: twinkle-dust 6s ease-in-out infinite;
+}
+
+/* Speedometer Needle Sweeping Arc */
+@keyframes needle-oscillate {
+  0% { transform: rotate(-35deg); }
+  30% { transform: rotate(18deg); }
+  55% { transform: rotate(4deg); }
+  75% { transform: rotate(24deg); }
+  100% { transform: rotate(-35deg); }
+}
+
+.needle-sweep {
+  transform-origin: bottom center;
+  animation: needle-oscillate 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Breathing Aura Glow for Accent Cards */
+@keyframes breathing-aura {
+  0%, 100% { box-shadow: 0 16px 40px var(--accent-glow); }
+  50% { box-shadow: 0 24px 60px var(--accent-glow), 0 0 40px var(--accent-glow); }
+}
+
+.aura-breathing {
+  animation: breathing-aura 4s ease-in-out infinite;
+}
+
+/* Beacon Dot Pulsing */
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+
+/* Chart Scrubber Pin Gliding */
+@keyframes scrubber-glide {
+  0% { transform: translate(0px, 0px); }
+  35% { transform: translate(35px, -14px); }
+  65% { transform: translate(-30px, 10px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+.scrubber-animated {
+  animation: scrubber-glide 8s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+}

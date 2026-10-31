@@ -1,0 +1,104 @@
+/* ==========================================================================
+   BISHEN JAYAWARDHANA — DESIGN TOKENS & DYNAMIC THEMES
+   ========================================================================== */
+
+:root {
+  /* Default Theme: 01. Cyber Security & Systems Defense */
+  --theme-id: 'cyber-defense';
+  --bg-dark: #020817;
+  --bg-gradient: radial-gradient(1200px circle at var(--mouse-x, 50vw) var(--mouse-y, 35vh), 
+                                rgba(20, 66, 166, 0.45) 0%, 
+                                rgba(9, 34, 94, 0.3) 30%, 
+                                rgba(4, 18, 51, 0.8) 60%, 
+                                #020817 100%);
+  --cursor-spotlight-color: rgba(253, 145, 204, 0.18);
+  --cursor-spotlight-secondary: rgba(56, 189, 248, 0.12);
+
+  /* Accents */
+  --accent-primary: #fd91cc;         /* Bubblegum Pink */
+  --accent-primary-hover: #ff4794;
+  --accent-secondary: #38bdf8;       /* Electric Cyan */
+  --accent-royal: #1d4ed8;           /* Deep Royal Blue */
+  --accent-glow: rgba(253, 145, 204, 0.4);
+
+  /* Frosted Glass Surfaces */
+  --glass-surface: rgba(12, 32, 77, 0.62);
+  --glass-surface-elevated: rgba(15, 40, 95, 0.75);
+  --glass-border: linear-gradient(135deg, rgba(56, 189, 248, 0.6) 0%, rgba(255, 255, 255, 0.25) 40%, rgba(253, 145, 204, 0.55) 100%);
+  --glass-border-subtle: rgba(56, 189, 248, 0.25);
+  --glass-shadow: 0 16px 40px rgba(0, 0, 0, 0.65);
+
+  /* Typography Colors */
+  --text-main: #ffffff;
+  --text-muted: #93c5fd;
+  --text-dim: #64748b;
+  --text-contrast: #020817;
+
+  /* Typography Fonts */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Coordinates updated via JavaScript cursor tracker */
+  --mouse-x: 50vw;
+  --mouse-y: 35vh;
+}
+
+/* ==========================================================================
+   THEME 2: SYSTEMS VELOCITY (Midnight Black · Electric Blue · Cantaloupe Orange)
+   ========================================================================== */
+body.theme-systems-velocity {
+  --theme-id: 'systems-velocity';
+  --bg-dark: #02070a;
+  --bg-gradient: radial-gradient(1200px circle at var(--mouse-x, 50vw) var(--mouse-y, 35vh), 
+                                rgba(2, 151, 222, 0.35) 0%, 
+                                rgba(3, 105, 161, 0.2) 30%, 
+                                rgba(2, 7, 10, 0.85) 60%, 
+                                #02070a 100%);
+  --cursor-spotlight-color: rgba(252, 115, 77, 0.2);
+  --cursor-spotlight-secondary: rgba(2, 151, 222, 0.15);
+
+  --accent-primary: #fc734d;         /* Cantaloupe Orange */
+  --accent-primary-hover: #ea580c;
+  --accent-secondary: #0297de;       /* Electric Blue */
+  --accent-royal: #0369a1;
+  --accent-glow: rgba(252, 115, 77, 0.45);
+
+  --glass-surface: rgba(11, 23, 38, 0.68);
+  --glass-surface-elevated: rgba(15, 30, 48, 0.82);
+  --glass-border: linear-gradient(135deg, rgba(2, 151, 222, 0.7) 0%, rgba(255, 255, 255, 0.25) 40%, rgba(252, 115, 77, 0.65) 100%);
+  --glass-border-subtle: rgba(2, 151, 222, 0.25);
+  --glass-shadow: 0 16px 40px rgba(0, 0, 0, 0.8);
+
+  --text-muted: #7dd3fc;
+  --text-dim: #475569;
+}
+
+/* ==========================================================================
+   THEME 3: CLOUD ARCHITECTURE (Sky Blue · Motion Fluted Glass · Radiant Hot Pink)
+   ========================================================================== */
+body.theme-cloud-architecture {
+  --theme-id: 'cloud-architecture';
+  --bg-dark: #031429;
+  --bg-gradient: radial-gradient(1200px circle at var(--mouse-x, 50vw) var(--mouse-y, 35vh), 
+                                rgba(5, 147, 198, 0.4) 0%, 
+                                rgba(9, 60, 107, 0.3) 35%, 
+                                rgba(3, 20, 41, 0.85) 65%, 
+                                #031429 100%);
+  --cursor-spotlight-color: rgba(216, 57, 149, 0.22);
+  --cursor-spotlight-secondary: rgba(5, 147, 198, 0.18);
+
+  --accent-primary: #d83995;         /* Radiant Hot Pink */
+  --accent-primary-hover: #be185d;
+  --accent-secondary: #0593c6;       /* Sky Blue */
+  --accent-royal: #0284c7;
+  --accent-glow: rgba(216, 57, 149, 0.45);
+
+  --glass-surface: rgba(6, 34, 61, 0.65);
+  --glass-surface-elevated: rgba(9, 44, 79, 0.8);
+  --glass-border: linear-gradient(135deg, rgba(5, 147, 198, 0.75) 0%, rgba(255, 255, 255, 0.3) 40%, rgba(216, 57, 149, 0.65) 100%);
+  --glass-border-subtle: rgba(5, 147, 198, 0.3);
+  --glass-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
+
+  --text-muted: #bae6fd;
+  --text-dim: #64748b;
+}

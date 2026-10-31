@@ -7,6 +7,15 @@
 
   <br/><br/>
 
+  <!-- ==================== LIVE INTERACTIVE WEB EXPERIENCE ==================== -->
+  <p align="center">
+    <a href="https://bishenjayawardhana.github.io" target="_blank">
+      <img src="https://img.shields.io/badge/⚡_Launch_Live_Interactive_3D_Experience-fd91cc?style=for-the-badge&logo=googlechrome&logoColor=030816" height="32" alt="Launch Live 3D Experience" />
+    </a>
+  </p>
+
+  <br/>
+
   <!-- ==================== STATUS & DEGREE BADGES ==================== -->
   <p align="center">
     <a href="https://github.com/bishenjayawardhana">
