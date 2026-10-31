@@ -1,9 +1,9 @@
 name: generate animation
 
 on:
-  # run automatically every 6 hours to cycle themes and update telemetry
+  # run automatically every 12 hours
   schedule:
-    - cron: "0 */6 * * *" 
+    - cron: "0 */12 * * *" 
   
   # allows to manually run the job at any time
   workflow_dispatch:
@@ -24,10 +24,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # automatically rotates theme (cyber-defense -> systems-velocity -> cloud-architecture)
-      - name: rotate theme automatically
-        run: node scripts/theme-manager.js auto
-
       # generates a snake game from a github user contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
@@ -35,11 +31,11 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#1f883d&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#39d353&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      # cleans timeline bar, trims margins, and harmonizes snake color with active theme
+      # cleans timeline bar and trims margins to match native contribution graph
       - name: post-process snake svg
         run: node scripts/postprocess-snake.js
 
@@ -47,7 +43,7 @@ jobs:
       - name: generate streak stats svg
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=github-dark&hide_border=false&date_format=M%20j%5B%2C%20Y%5D&border=1a3358&stroke=1a3358&background=020817&currStreakNum=fd91cc&ring=fd91cc&fire=fd91cc
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=false&date_format=M%20j%5B%2C%20Y%5D
           path: dist/streak.svg
           token: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
 
