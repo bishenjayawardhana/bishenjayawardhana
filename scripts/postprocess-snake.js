@@ -25,7 +25,7 @@ function cleanSvg(filename, isDarkOnly = false) {
   // viewers still see the crisp light theme (#ebedf0 empty cells).
   if (!isDarkOnly && !content.includes('prefers-color-scheme: dark')) {
     const darkMediaRule = '@media (prefers-color-scheme: dark){:root{--cb:#1b1f230a;--cs:#39d353;--ce:#161b22;--c0:#161b22;--c1:#0e4429;--c2:#006d32;--c3:#26a641;--c4:#39d353}}';
-    content = content.replace('<style>', `<style>${darkMediaRule}`);
+    content = content.replace('</style>', `${darkMediaRule}</style>`);
   }
 
   fs.writeFileSync(filePath, content, 'utf8');
