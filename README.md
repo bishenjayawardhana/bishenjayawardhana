@@ -7,7 +7,7 @@
 
   <p align="center">
     <a href="https://github.com/bishenjayawardhana">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1200&color=70A5FD&center=true&vCenter=true&multiline=false&width=680&height=42&lines=Cyber+Security+Undergraduate+%40+NSBM+%C3%97+VU+Australia;Full-Stack+Developer+%26+Security+Enthusiast;3D+CAD+%26+Industrial+SLA+Additive+Manufacturing+Specialist;Breaking%2C+Securing+%26+Engineering+Resilient+Systems" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=1200&color=70A5FD&center=true&vCenter=true&multiline=false&width=720&height=42&lines=Cyber+Security+Undergraduate+%40+NSBM+%C3%97+VU+Australia;Full-Stack+Developer+%26+Security+Enthusiast;3D+CAD+%26+Industrial+SLA+Additive+Manufacturing+Specialist;Breaking%2C+Securing+%26+Engineering+Resilient+Systems" alt="Typing SVG" />
     </a>
   </p>
 
@@ -62,22 +62,22 @@
 ### <img src="https://api.iconify.design/lucide/shield.svg?color=%2370a5fd" width="18" height="18" align="absmiddle" /> About Me
 
 ```yaml
-name: Bishen Jayawardhana
+name: Bishen Lakjith Jayawardhana
 focus: Cyber Security, Full-Stack Engineering & Industrial 3D Design
 experience:
-  role: Industrial 3D & Ceramic Product Designer (2022 – 2025)
-  company: Midaya Ceramic Company Ltd (Clients in UK, USA & Australia)
+  role: Assistant Designer (Jan 2024 – 2025)
+  company: Midaya Ceramic Company Pvt. Ltd. (ISO 9001:2015 Certified)
 academic:
-  year: 2nd Year Undergraduate
+  year: 2nd Year Undergraduate (2025 – Present)
   program: Bachelor of Information Technology (Cyber Security Major)
-  institution: NSBM Green University (affiliated with Victoria University, Australia)
+  institution: Victoria University, Australia (via NSBM Green University)
 mindset: "Bridge precision engineering, creative design, and resilient security in everything you build."
 ```
 
-- <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Academics:** Pursuing a Bachelor's in **Information Technology (Cyber Security Major)** at **NSBM Green University** (Affiliated with **Victoria University, Australia**).
+- <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Academics:** Pursuing a **Bachelor of Information Technology (Cyber Security Major)** at **Victoria University, Australia** (via **NSBM Green University**).
 - <img src="https://api.iconify.design/lucide/shield-alert.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Cyber Security Interests:** Network Security, Digital Forensics, Ethical Hacking, Web Application Security (OWASP Top 10), Penetration Testing & Secure Systems Architecture.
-- <img src="https://api.iconify.design/lucide/code-2.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Software & Automation:** Building modern full-stack web platforms (`React`, `Next.js`, `Node.js`) and lightweight workflow automation (`Google Apps Script`, `Python`, `Bash`).
-- <img src="https://api.iconify.design/lucide/box.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Industrial 3D CAD & SLA Additive Manufacturing:** 3+ years of commercial experience (Midaya Ceramic Company, 2022–2025) modeling complex surfaces in **SolidWorks**, rendering in **KeyShot**, preparing print files in **Materialise Magics**, and operating industrial **SLA 300 DLC** 3D printers (0.1 mm layer resolution, 60–70L resin vat calibration, Protofab **Sirius** controllers, and 0.02 mm/m marble platform leveling) for international brands including **The Conran Shop (UK)**, **Thomas O'Brien / AERO Studios (USA)**, **Studio Word (UK)**, **Case Furniture (UK)**, and **Musango (Australia)**.
+- <img src="https://api.iconify.design/lucide/code-2.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Software & Workflow Automation:** Building modern full-stack web platforms (`React`, `Next.js`, `Node.js`) and custom workflow automation—including an automated **Project Tracking & Email Notification System** built with **Google Sheets & Google Apps Script** at Midaya Ceramic Company.
+- <img src="https://api.iconify.design/lucide/box.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Industrial 3D CAD & SLA Additive Manufacturing:** Served as **Assistant Designer** at **Midaya Ceramic Company Pvt. Ltd.** (since Jan 2024), introducing modern CAD/CAM software pipelines (**SolidWorks**, **KeyShot**, **Materialise Magics**), producing industry-standard technical drawings, and operating industrial **SLA 300 DLC** 3D printers (0.1 mm layer precision, 60–70L resin vat calibration, Protofab **Sirius** controllers, and 0.02 mm/m marble platform leveling) for international clients across the UK, USA, and Australia.
 - <img src="https://api.iconify.design/lucide/palette.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Creative & Visual Design:** High proficiency in **Adobe Photoshop**, **Adobe Illustrator**, **Adobe Premiere Pro**, and **Figma** for UI/UX design, brand visuals, and video production.
 - <img src="https://api.iconify.design/lucide/crosshair.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Current Focus:** Engineering the [AutoIntel Store](https://autointelstore.com) automotive platform and deepening systems security knowledge.
 - <img src="https://api.iconify.design/lucide/headphones.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Off-duty:** Tech research, cybersecurity capture-the-flags (CTFs), and curating tracks on [Spotify](https://open.spotify.com/user/31aizozjdk4invcobmpavvn7qaoa).
@@ -113,7 +113,7 @@ mindset: "Bridge precision engineering, creative design, and resilient security 
 | :--- | :--- |
 | <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Cyber Security & Systems** | Linux (Kali / Ubuntu), Bash Scripting, Python, Wireshark, Nmap, Digital Forensics, Network Defense, OWASP |
 | <img src="https://api.iconify.design/lucide/layout.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Frontend Engineering** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML5 / CSS3 |
-| <img src="https://api.iconify.design/lucide/server.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Backend, APIs & Automation** | Node.js, Express, RESTful APIs, Google Apps Script, Secure Authentication (JWT / OAuth) |
+| <img src="https://api.iconify.design/lucide/server.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Backend, APIs & Automation** | Node.js, Express, RESTful APIs, Google Apps Script & Google Sheets Automation, Secure Authentication (JWT / OAuth) |
 | <img src="https://api.iconify.design/lucide/database.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Databases & Storage** | MySQL, PostgreSQL |
 | <img src="https://api.iconify.design/lucide/git-branch.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **DevOps & Collaboration** | Docker, Git, GitHub Actions, Postman, Linux CLI |
 | <img src="https://api.iconify.design/lucide/box.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **3D CAD & Industrial SLA Printing** | SolidWorks (Advanced Surfacing & Mold Tapers), KeyShot, Materialise Magics, Industrial SLA 300 DLC Printers (0.1 mm Precision), Protofab Sirius Controller, Production Technical Drawings |
@@ -156,7 +156,8 @@ mindset: "Bridge precision engineering, creative design, and resilient security 
 | :--- | :--- | :--- | :---: |
 | <img src="https://api.iconify.design/lucide/car.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **AutoIntel&nbsp;Store** | Automotive marketplace & spare parts management ecosystem with interactive catalog and admin dashboard. | `React` `TypeScript` `Node.js` `MySQL` | [Live&nbsp;Site&nbsp;↗](https://autointelstore.com) |
 | <img src="https://api.iconify.design/lucide/binary.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Cyber&nbsp;Security&nbsp;Labs** | Practical security labs, vulnerability scanning, network traffic analysis, digital forensics, and CTF challenges. | `Python` `Bash` `Linux` `Wireshark` | [Explore&nbsp;↗](https://github.com/bishenjayawardhana) |
-| <img src="https://api.iconify.design/lucide/box.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **The&nbsp;Conran&nbsp;Shop&nbsp;×&nbsp;Studio&nbsp;Word** | 3D CAD engineering & SLA production prototyping for the 12-piece **Fade Collection** (UK), calibrated for ceramic shrinkage and tolerances. | `SolidWorks` `KeyShot` `Materialise Magics` `SLA 300` | [Collection&nbsp;↗](https://studio-word.com/fade-collection-product-2022) |
+| <img src="https://api.iconify.design/lucide/file-spreadsheet.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Enterprise&nbsp;Project&nbsp;Tracker** | Automated project tracking & email notification system built for Midaya Ceramic Company Pvt. Ltd. to streamline design-to-production workflows. | `Google Apps Script` `Google Sheets` `JavaScript` | [Midaya&nbsp;↗](https://www.midaya.com) |
+| <img src="https://api.iconify.design/lucide/box.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **The&nbsp;Conran&nbsp;Shop&nbsp;×&nbsp;Studio&nbsp;Word** | 3D CAD engineering, technical drawings & SLA 300 DLC prototyping for the 12-piece **Fade Collection** (UK), calibrated for ceramic shrinkage. | `SolidWorks` `KeyShot` `Materialise Magics` `SLA 300` | [Collection&nbsp;↗](https://studio-word.com/fade-collection-product-2022) |
 | <img src="https://api.iconify.design/lucide/layers.svg?color=%2370a5fd" width="15" height="15" align="absmiddle" /> **Thomas&nbsp;O'Brien&nbsp;/&nbsp;AERO&nbsp;Studios** | Complex debossed surface modeling and draft-angle engineering for the **TOB — AERO Canisters** series (USA) for seamless mold release. | `SolidWorks` `KeyShot` `Surface Modeling` `SLA 300` | [Collection&nbsp;↗](https://www.tobaero.com/) |
 
 <br/>
