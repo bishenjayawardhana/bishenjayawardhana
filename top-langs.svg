@@ -1,0 +1,47 @@
+<svg width="300" height="175" viewBox="0 0 300 175" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" height="174" stroke="#e4e2e2" width="299" fill="#1a1b27" />
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+  </g>
+  <g transform="translate(25, 55)">
+    <mask id="rect-mask">
+      <rect x="0" y="0" width="250" height="8" fill="white" rx="4"/>
+    </mask>
+        <rect mask="url(#rect-mask)" x="0.00" y="0" width="167.63" height="8" fill="#3178c6" />
+        <rect mask="url(#rect-mask)" x="167.63" y="0" width="32.19" height="8" fill="#e34c26" />
+        <rect mask="url(#rect-mask)" x="199.82" y="0" width="29.25" height="8" fill="#f1e05a" />
+        <rect mask="url(#rect-mask)" x="229.07" y="0" width="15.94" height="8" fill="#4F5D95" />
+        <rect mask="url(#rect-mask)" x="245.01" y="0" width="3.94" height="8" fill="#563d7c" />
+        <rect mask="url(#rect-mask)" x="248.95" y="0" width="0.46" height="8" fill="#89e051" />
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)">
+        <circle cx="5" cy="6" r="5" fill="#3178c6" />
+        <text x="15" y="10" class="lang-name">TypeScript 67.1%</text>
+      </g>
+      <g transform="translate(0, 25)">
+        <circle cx="5" cy="6" r="5" fill="#e34c26" />
+        <text x="15" y="10" class="lang-name">HTML 12.9%</text>
+      </g>
+      <g transform="translate(0, 50)">
+        <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+        <text x="15" y="10" class="lang-name">JavaScript 11.7%</text>
+      </g>
+      <g transform="translate(130, 0)">
+        <circle cx="5" cy="6" r="5" fill="#4F5D95" />
+        <text x="15" y="10" class="lang-name">PHP 6.4%</text>
+      </g>
+      <g transform="translate(130, 25)">
+        <circle cx="5" cy="6" r="5" fill="#563d7c" />
+        <text x="15" y="10" class="lang-name">CSS 1.6%</text>
+      </g>
+      <g transform="translate(130, 50)">
+        <circle cx="5" cy="6" r="5" fill="#89e051" />
+        <text x="15" y="10" class="lang-name">Shell 0.2%</text>
+      </g>
+    </g>
+  </g>
+</svg>
